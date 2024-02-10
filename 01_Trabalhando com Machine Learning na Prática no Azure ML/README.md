@@ -2,7 +2,7 @@
     <img  src="../imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
 </p>
 
-<h1>
+<p align="center">
     <a href="https://www.dio.me/">
      <img align="center" width="60px" src="https://hermes.dio.me/lab_projects/badges/87d332d0-5198-4a2f-b159-38c8c2976954.png"></a>
     <span> Trabalhando com Machine Learning</span>
@@ -173,7 +173,7 @@ O aprendizado de máquina automatizado permite que você experimente vários alg
 </p> 
 
 2.	Crie um novo trabalho de ML automatizado com as seguintes configurações, usando Next conforme necessário para avançar pela interface do usuário:
-**Configurações básicas:**
+- **Configurações básicas:**
     - **Trabalho nome:** mslearn-bike-automl
     - **Nome do novo experimento:** mslearn -bike-rental
     - **Descrição:** Aprendizado de máquina automatizado para previsão de aluguel de bicicletas
@@ -248,7 +248,7 @@ Selecione Criar. Após a criação do conjunto de dados, selecione o conjunto de
 </p> 
 
 
-**Configurações de tarefa:**
+- **Configurações de tarefa:**
     - **Tarefa tipo:** Regressão
     - **Conjunto de dados:** aluguel de bicicletas
     - **Coluna de destino:** Aluguéis (inteiro)
@@ -365,13 +365,13 @@ Revise os gráficos que mostram o desempenho do modelo.
 
 3.	Aguarde o início da implantação – isso pode levar alguns segundos. O status de implantação do endpoint de previsão de aluguel será indicado na parte principal da página como Running .
 <p align="center">
-    <img  src="../imagens/01_35_Implantar_NomeModelo.png" width="60%"/> 
+    <img  src="../imagens/01_35_Implantar_NomeModelo.png" width="50%"/> 
     <br>
 </p> 
 
 4.	Aguarde até que o status da implantação mude para Succeeded . Esse poderia leve de 5 a 10 minutos.
 <p align="center">
-    <img  src="../imagens/01_36_Running_Model.png" width="100%"/> 
+    <img  src="../imagens/01_36_Running_Model.png" width="70%"/> 
     <br>
 </p> 
  
@@ -449,39 +449,36 @@ O serviço web que você criou está hospedado em uma instância de contêiner d
 
 1. Acesse a página do portal e clique para abrir o menu lateral esquerdo:
 <p align="center">
-    <img  src="../imagens/01_41_Limpar_Menu.png" width="80%"/> 
+    <img  src="../imagens/01_41_Limpar_Menu.png" width="60%"/> 
     <br>
 </p> 
 
 2. Clique em "Resource Groups":
 <p align="center">
-    <img  src="../01_42_Limpar_Menu_Grupo.png" width="100%"/> 
+    <img  src="../imagens/01_42_Limpar_Menu_Grupo.png" width="100%"/> 
     <br>
 </p> 
 
 3. Selecione o grupo que deseja deletar:
 <p align="center">
-    <img  src="../imagens/01_43_Limpar_Delete_Grupo.png" width="100%"/> 
+    <img  src="../imagens/01_43_Limpar_Select_Grupo.png" width="100%"/> 
     <br>
 </p> 
 
 4. No ambiente do recurso referido, clique em "Delete resource group":
 <p align="center">
-    <img  src="../imagens/01_44_Limpar_Select_Grupo.png" width="100%"/> 
+    <img  src="../imagens/01_44_Limpar_Delete_Grupo.png" width="100%"/> 
     <br>
 </p> 
 
 5. Confirme as informações, informe o nome do recurso no campo abaixo e clique em delete:
 <p align="center">
-    <img  src="../imagens/01_44_Limpar_Select_Grupo.png" width="100%"/> 
+    <img  src="../imagens/01_45_Limpar_Modal.png" width="50%"/> 
     <br>
 </p> 
 
 6. Confirme a exclusão:
-<p align="center">
-    <img  src="../imagens/01_45_Limpar_Modal.png" width="60%"/> 
-    <br>
-</p> 
+
 <p align="center">
     <img  src="../imagens/01_46_Limpar_Modal_Confirma.png" width="40%"/> 
     <br>
@@ -522,7 +519,7 @@ O objetivo deste exercício é obter uma noção geral de como os serviços de I
 Antes de utilizar o estúdio, é necessário associar um recurso de serviços Azure AI ao estúdio. Dependendo do estúdio, você pode achar que precisa de um recurso específico de serviço único ou pode usar um recurso geral de vários serviços. No caso do Content Safety Studio, você pode usar o serviço criando um recurso de segurança de conteúdo de serviço único ou um recurso geral de vários serviços do Azure AI . Nas etapas abaixo, criaremos um recurso de segurança de conteúdo de serviço único.
 1.	No canto superior direito da tela, clique no ícone Configurações.
 <p align="center">
-    <img  src="../imagens/01_49_Content_Config.png" width="60%"/> 
+    <img  src="../imagens/01_49_Content_Config.png" width="40%"/> 
     <br>
 </p> 
 

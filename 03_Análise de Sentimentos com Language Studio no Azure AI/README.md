@@ -1,28 +1,52 @@
-<h1>
+<p align="center">
+    <img  src="../imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
+</p>
+
+<p align="center">
     <a href="https://www.dio.me/">
      <img align="center" width="60px" src="https://hermes.dio.me/lab_projects/badges/dc92e499-6ec6-4c82-af3f-00c40538ca80.png"></a>
     <span> 
 Análise de Sentimentos com Language Studio </span>
-</h1>
+</p>
 
-## Analyze sentiment and mine opinions
-Através deste recurso a Inteligência Artificial analiza textos afim de descobrir o sentimento e satisfação do usuário que o escreveu, assim como as principais opiniões.
+## Criando modelo de previsão - Passo a passo
 
-### 01 - Dentro do Language Studio guia *Classify test* clique na opção Analyze sentiment and mine opinions:   
-<img align="right" src="https://raw.githubusercontent.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/main/imagens/DP03%20-%20An%C3%A1lise%20de%20sentimentos/01.png" width=""/> 
+Neste LAB, vamos criar nossa conta no Azure e seguir o passo a passo da documentação do Learning para desenvolver nossa primeira automação prática de Machine Learning. Neste exercício, você usará o recurso de aprendizado de máquina automatizado no Azure Machine Learning para treinar e avaliar um modelo de aprendizado de máquina. Em seguida, você implantará e testará o modelo treinado. 
 
-...
 
-<img align="right" src="https://raw.githubusercontent.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/main/imagens/DP03%20-%20An%C3%A1lise%20de%20sentimentos/02.png" width=""/> 
-...
-<img align="right" src="https://raw.githubusercontent.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/main/imagens/DP03%20-%20An%C3%A1lise%20de%20sentimentos/03.png" width=""/> 
-...
-<img align="right" src="https://raw.githubusercontent.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/main/imagens/DP03%20-%20An%C3%A1lise%20de%20sentimentos/04.png" width=""/> 
-...
-<img align="right" src="https://raw.githubusercontent.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/main/imagens/DP03%20-%20An%C3%A1lise%20de%20sentimentos/05.png" width="1000"/> 
-...  
+### Como entregar esse projeto?
+1. Crie um novo repositório no github com um nome a sua preferência
+2. Crie um modelo de previsão com seus devidos pontos de extremidade configurados
+3. Escreva o passo a passo desse processo em um readme.md de como você chegou nessa etapa4. Salve nesse repositório o readme.
+4. Compartilhe conosco o link desse repositório através do botão 'entregar projeto' na plataforma da [DIO](https://web.dio.me/home)
 
-## Considerações Finais  
+### Instrutora
+**Valéria Baptista** - [Linkedin](https://www.linkedin.com/in/valeriabaptista/)
+<br>Head of Cloud and Cybersecurity, CloudData Tech & DevOps
 
- Tal recurso facilita bastante o dia da dia das empresas, uma vez que possibilita saber de forma ágil e simples o sentimento dos clientes no que dis respeito aos seus produtos, o que eles mais gostaram, menos gostaram e a possibilidade de voltarem a consumir o produto ou serviço, possibilitando assim a reação rápida por parte da empresa.
+### Links Importantes
+- [Explore Automated Machine Learning in Azure Machine Learning](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html)
+- [Explore Azure AI Services](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/02-content-safety.html)
+
+
+
+## Não encontrou sua resposta aqui? Tente esses repositórios...
+
+### Repos Auxiliares
+- [giselle-ferreira](
+https://github.com/giselle-ferreira/automl-microsoft-azure)
+- [alexklenio](
+ https://github.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP01%20-%20Trabalhando%20com%20Machine%20Learning)
+- [francodof](
+https://github.com/francodof/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/Lab01-Azure-ML-Automated)
+
+
+## 📜 License
+
+O projeto publicado em 2024 sobre a licença [MIT](./LICENSE) ❤️ 
+
+Made with ❤️ by Shyoutarou
+
+Gostou? Deixe uma estrelinha para ajudar o projeto ⭐
+
 
