@@ -2,6 +2,7 @@
 <h1 align="center">
     <img align="right" src="../imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
     <br>
+    <br>
 </h1>
 
 <h1>
@@ -24,7 +25,8 @@ Estrutura do projeto:
 ### Rascunho da Arquitetura:
 
 <h1 align="center">
-    <img align="right" src="../imagens/01_01_Arquitetura.png" width=""/> 
+    <br>
+    <img align="right" src="../imagens/01_01_Arquitetura.png" width="100"/> 
     <br>
 </h1>
 
@@ -39,10 +41,8 @@ Valéria Baptista - [Linkedin](https://www.linkedin.com/in/valeriabaptista/)
 <br>Head of Cloud and Cybersecurity, CloudData Tech & DevOps
 
 ### Links Importantes
-- [Explore Automated Machine Learning in Azure Machine Learning](
- https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/02-content-safety.html)
-- [Explore Azure AI Services](
-https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html)
+- [Explore Automated Machine Learning in Azure Machine Learning](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html)
+- [Explore Azure AI Services](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/02-content-safety.html)
 
 ## Explorar o Machine Learning Automatizado no Azure Machine Learning
 
@@ -52,7 +52,7 @@ https://azure.microsoft.com)
 
 <h1 align="center">
     <img align="right" src="../imagens/01_02_Portal.png" width=""/> 
-    <br>
+    <br><br>
 </h1>
 
 Preencher o formulário. ⚠️ É necessário se cadastrar e ter um cartão de crédito 💳
