@@ -2,11 +2,11 @@
     <img  src="../imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
 </p>
 
-<p align="center">
+<h1 align="center">
     <a href="https://www.dio.me/">
      <img align="center" width="60px" src="https://hermes.dio.me/lab_projects/badges/f38a62b8-2880-4fd2-82ff-ba263ce97cdb.png"></a>
     <span> Reconhecimento Facial e transformação de imagens em Dados</span>
-</p>
+</h1>
 
 ## Criando modelo de previsão - Passo a passo
 

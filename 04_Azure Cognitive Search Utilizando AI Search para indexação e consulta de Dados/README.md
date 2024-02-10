@@ -2,12 +2,11 @@
     <img  src="../imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
 </p>
 
-<h1>
+<h1 align="center">
     <a href="https://www.dio.me/">
      <img align="center" width="60px" src="https://hermes.dio.me/lab_projects/badges/619af8f8-d138-4e40-9d48-fec7b318e44d.png"></a>
-    <span> 
-Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados</span>
-</p>
+    <span>Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados</span>
+</h1>
 
 ## Criando modelo de previsão - Passo a passo
 

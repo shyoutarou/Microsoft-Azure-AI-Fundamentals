@@ -2,11 +2,11 @@
     <img  src="../imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
 </p>
 
-<p align="center">
+<h1 align="center">
     <a href="https://www.dio.me/">
      <img align="center" width="60px" src="https://hermes.dio.me/lab_projects/badges/c1203540-e5d4-40d1-a1e8-a7e0387d8abe.png"></a>
     <span> Explorando os Recursos de IA Generativa </span>
-</p>
+</h1>
 
 ## Criando modelo de previsão - Passo a passo
 

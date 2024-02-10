@@ -2,11 +2,11 @@
     <img  src="../imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
 </p>
 
-<p align="center">
+<h1 align="center">
     <a href="https://www.dio.me/">
      <img align="center" width="60px" src="https://hermes.dio.me/lab_projects/badges/87d332d0-5198-4a2f-b159-38c8c2976954.png"></a>
     <span> Trabalhando com Machine Learning</span>
-</p>
+</h1>
 
 ## Criando modelo de previsão - Passo a passo
 
@@ -22,7 +22,7 @@ Estrutura do projeto:
 ### Rascunho da Arquitetura:
 
 <p align="center">
-   <img  src="../imagens/01_01_Arquitetura.png" width="40%"/> 
+   <img  src="../imagens/01_01_Arquitetura.png" width="50%"/> 
 </p>
 
 ### Como entregar esse projeto?
@@ -455,7 +455,7 @@ O serviço web que você criou está hospedado em uma instância de contêiner d
 
 2. Clique em "Resource Groups":
 <p align="center">
-    <img  src="../imagens/01_42_Limpar_Menu_Grupo.png" width="100%"/> 
+    <img  src="../imagens/01_42_Limpar_Menu_Grupo.png" width="40%"/> 
     <br>
 </p> 
 
