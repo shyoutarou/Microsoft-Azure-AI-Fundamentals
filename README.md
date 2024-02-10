@@ -1,6 +1,8 @@
-<img align="right" src="https://raw.githubusercontent.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/main/imagens/WhatsApp%20Image%202024-02-02%20at%2012.43.08.jpeg" width="1000"/>   ...
 
-<img align="right" src="https://hermes.dio.me/tracks/4d998d5c-36c1-497b-8da0-8db465c820eb.png" width="200"/>
+<h1 align="center">
+    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
+    <br>
+</h1>
 
 ## Detalhes da formação
 
@@ -11,45 +13,35 @@ Domine conceitos como visão computacional, classificação inteligente de image
 Com conteúdo completamente inédito, você vai se aprofundar nos principais conceitos das ferramentas do Azure para ganhar velocidade e performance em suas aplicações com inteligência artificial.
 
 ### Atividades:
-Mentorias (Live): Momento em que você irá se inspirar nos talentos das empresas mais inovadoras do mundo, podendo interagir ao longo da live e até fazer perguntas sobre carreira e tecnologia.
+**Mentorias (Live):** Momento em que você irá se inspirar nos talentos das empresas mais inovadoras do mundo, podendo interagir ao longo da live e até fazer perguntas sobre carreira e tecnologia.
 
-Desafio de Código: Coloque em prática todo o conhecimento adquirido nas aulas e teste o seu conhecimento na resolução de um desafio.
+**Desafio de Código:** Coloque em prática todo o conhecimento adquirido nas aulas e teste o seu conhecimento na resolução de um desafio.
 
-### Passo a passo dos Desafio de Código:
+<div align="left">
+    <!-- A base de toda IA: Aprendendo Lógica com Desafios de Código!-->
+    <table border=1>
+        <tr>
+            <th colspan="3">A base de toda IA: Aprendendo Lógica com Desafios de Código!</th>
+        </tr>
+        <tr>
+            <th>Desafio</th>
+            <th>Solução</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Jornada do Herói</td>
+            <td><a href="https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/DesafiosCodigo/A%20base%20de%20toda%20IA%20Aprendendo%20L%C3%B3gica%20com%20Desafios%20de%20C%C3%B3digo/Jornada%20do%20Her%C3%B3i">Código</a></td>
+            <td align="center">✔️</td>
+        </tr>
+        <tr>
+            <td>Pontos de Experiência</td>
+            <td><a href="https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/DesafiosCodigo/A%20base%20de%20toda%20IA%20Aprendendo%20L%C3%B3gica%20com%20Desafios%20de%20C%C3%B3digo/Pontos%20de%20Experi%C3%AAncia">Código</a></td>
+            <td align="center">✔️</td>
+        </tr>
+    </table>     
+</div>
 
-<!-- JavaScript -->
-<details> 
-    <summary><strong>JavaScript</strong></summary>
-    <br />
-    <div align="left">
-        <!-- A base de toda IA: Aprendendo Lógica com Desafios de Código!-->
-        <table border=1>
-            <tr>
-                <th colspan="3">A base de toda IA: Aprendendo Lógica com Desafios de Código!</th>
-            </tr>
-            <tr>
-                <th>Desafio</th>
-                <th>Solução</th>
-                <th>Status</th>
-            </tr>
-            <tr>
-                <td>Jornada do Herói</td>
-                <td><a href="https://github.com/shyoutarou/desafios-DIO/tree/master/Desafios/JavaScript/Busca%20e%20La%C3%A7os%20de%20Repeti%C3%A7%C3%A3o/O%20Escolhido">Código</a></td>
-                <td align="center">✔️</td>
-            </tr>
-            <tr>
-                <td>Pontos de Experiência</td>
-                <td><a href="https://github.com/shyoutarou/desafios-DIO/tree/master/Desafios/JavaScript/Busca%20e%20La%C3%A7os%20de%20Repeti%C3%A7%C3%A3o/Comunica%C3%A7%C3%A3o%20em%20Piral%C3%A2ndia">Código</a></td>
-                <td align="center">✔️</td>
-            </tr>
-        </table>     
-    </div>
-
-</details>
-
-Desafio de Projeto: Construa o seu portfólio construindo projetos práticos com o conhecimento adquirido ao longo das aulas.
-
-### Passo a passo dos Desafio de Projeto:
+**Desafio de Projeto:** Construa o seu portfólio construindo projetos práticos com o conhecimento adquirido ao longo das aulas.
 - [Trabalhando com Machine Learning na Prática no Azure ML](
 https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/01_Trabalhando%20com%20Machine%20Learning%20na%20Pr%C3%A1tica%20no%20Azure%20ML)
 - [Reconhecimento Facial e transformação de imagens em Dados no Azure ML](
