@@ -13,16 +13,16 @@
 Neste LAB, vamos criar nossa conta no Azure e seguir o passo a passo da documentação do Learning para desenvolver nossa primeira automação prática de Machine Learning. Neste exercício, você usará o recurso de aprendizado de máquina automatizado no Azure Machine Learning para treinar e avaliar um modelo de aprendizado de máquina. Em seguida, você implantará e testará o modelo treinado. 
 
 Estrutura do projeto:
-1.	API para Ingestão e Predição dos Dados:
+1.	**API para Ingestão e Predição dos Dados:**
     - Uma API com um endpoint para receber e armazenar dados de transações em um banco de dados.
     - Outro endpoint para realizar a predição dos valores de aluguel com base nos dados fornecidos
-2.	Pipeline de Treinamento do Modelo:
+2.	**Pipeline de Treinamento do Modelo:**
     - Um pipeline que treina o modelo de previsão de aluguel de bicicletas e salva o objeto do modelo treinado para uso posterior.
 
 ### Rascunho da Arquitetura:
 
 <p align="center">
-   <img  src="../imagens/01_01_Arquitetura.png" width="60%"/> 
+   <img  src="../imagens/01_01_Arquitetura.png" width="40%"/> 
 </p>
 
 ### Como entregar esse projeto?
@@ -32,7 +32,7 @@ Estrutura do projeto:
 4. Compartilhe conosco o link desse repositório através do botão 'entregar projeto' na plataforma da [DIO](https://web.dio.me/home)
 
 ### Instrutora
-Valéria Baptista - [Linkedin](https://www.linkedin.com/in/valeriabaptista/)
+**Valéria Baptista** - [Linkedin](https://www.linkedin.com/in/valeriabaptista/)
 <br>Head of Cloud and Cybersecurity, CloudData Tech & DevOps
 
 ### Links Importantes
@@ -54,17 +54,12 @@ Preencher o formulário. ⚠️ É necessário se cadastrar e ter um cartão de 
 
 <p align="center">
     <img  src="../imagens/01_03_Formulario.png" width="100%"/> 
-    <br>
-        <br>
-            <br>
-                <br>
-
 </p>
 
 Antes de começar a configurar o serviço de Machine learning iremos deixar criado um Grupo de Recursos, que auxiliará a organizarmos nossos recursos:
-•	Resource group: LABAI-900
-•	Name: laboratorioai900 (Create New)
-•	Region: East US
+- **Resource group:** LABAI-900
+- **Name:** laboratorioai900 (Create New)
+- **Region:** East US
 
 <p align="center">
     <img  src="../imagens/01_04_Create_resourceGroup.png" width="100%"/> 
@@ -73,21 +68,21 @@ Antes de começar a configurar o serviço de Machine learning iremos deixar cria
 
 
 Para utilizar o Azure Machine Learning, é necessário aprovisionar um espaço de trabalho do Azure Machine Learning na sua subscrição do Azure. Depois, você poderá usar o estúdio Azure Machine Learning para trabalhar com os recursos do seu workspace. Utilizaremos para isso o ML automatizado com as seguintes configurações:
-1.	Método de treinamento
-1.1 Treinar automaticamente
-2.	Configurações básicas: dados preenchidos com descrição e tags.
-3.	Tipos de dados
-3.1 Selecionar tipo de tarefa: Regressão
-3.2 Selecionar os dados: Adicionaremos o link do dataset
-4.	Configurações de tarefas
-4.1 Coluna de destino: Rentals
-4.2 Exibir configurações de definição adicionais: desmarcar caixas e em modelos permitidos, selecionar Random Forest e Light GBM.
-5.	Limites
-5.1 Tipo de validação: divisão de validação de treinamento; Validação de percentual de dados :15%;
-5.2 Dados de teste: divisão de teste de treinamento; Teste percentual de dados: 15%;
-6.	Computação
-7.	Configuração padrão, prosseguir.
-8.	Por fim, enviamos para treinamento.
+1.	**Método de treinamento**
+- 1.1 Treinar automaticamente
+2.	**Configurações básicas: dados preenchidos com descrição e tags.**
+3.	**Tipos de dados**
+- 3.1 Selecionar tipo de tarefa: Regressão
+- 3.2 Selecionar os dados: Adicionaremos o link do dataset
+4.	**Configurações de tarefas**
+- 4.1 Coluna de destino: Rentals
+- 4.2 Exibir configurações de definição adicionais: desmarcar caixas e em modelos permitidos, selecionar Random Forest e Light GBM.
+5.	**Limites**
+- 5.1 Tipo de validação: divisão de validação de treinamento; Validação de - percentual de dados :15%;
+- 5.2 Dados de teste: divisão de teste de treinamento; Teste percentual de dados: 15%;
+6.	**Computação**
+7.	**Configuração padrão, prosseguir.**
+8.	**Por fim, enviamos para treinamento.**
 
 ## Criar um espaço de trabalho do Azure Machine Learning
 
@@ -100,14 +95,14 @@ Para utilizar o Azure Machine Learning, é necessário aprovisionar um espaço d
     <br>
 </p>
 
-o	Assinatura: Sua subscrição Azure.
-o	Grupo de recursos: Crie ou selecione um grupo de recursos.
-o	Nome: Insira um nome exclusivo para seu espaço de trabalho.
-o	Região: Selecione a região geográfica mais próxima.
-o	Conta de armazenamento: observe a nova conta de armazenamento padrão que será criada para seu espaço de trabalho.
-o	Cofre de chaves: Observe o novo cofre de chaves padrão que será criado para seu espaço de trabalho.
-o	Insights de aplicativo: observe o novo recurso padrão de insights de aplicativo que será criado para seu espaço de trabalho.
-o	Registro de contêiner: Nenhum (um será criado automaticamente na primeira vez que você implantar um modelo em um contêiner).
+- **Assinatura:** Sua subscrição Azure.
+- **Grupo de recursos:** Crie ou selecione um grupo de recursos.
+- **Nome:** Insira um nome exclusivo para seu espaço de trabalho.
+- **Região:** Selecione a região geográfica mais próxima.
+- **Conta de armazenamento:** observe a nova conta de armazenamento padrão que será criada para seu espaço de trabalho.
+- **Cofre de chaves:** Observe o novo cofre de chaves padrão que será criado para seu espaço de trabalho.
+- **Insights de aplicativo:** observe o novo recurso padrão de insights de aplicativo que será criado para seu espaço de trabalho.
+- **Registro de contêiner:** Nenhum (um será criado automaticamente na primeira vez que você implantar um modelo em um contêiner).
  
 <p align="center">
     <img  src="../imagens/01_06_Create_ML.png" width="100%"/> 
@@ -125,7 +120,7 @@ o	Registro de contêiner: Nenhum (um será criado automaticamente na primeira ve
 
  
 <p align="center">
-    <img  src="../imagens/01_08__Deploy_ML.png" width="100%"/> 
+    <img  src="../imagens/01_08_Deploy_ML.png" width="100%"/> 
     <br>
 </p>
 
@@ -151,7 +146,7 @@ o	Registro de contêiner: Nenhum (um será criado automaticamente na primeira ve
 </p>
 
 <p align="center">
-    <img  src="../imagens/01_12_Azure.png" width="100%"/> 
+    <img  src="../imagens/01_12_MJ_Azure.png" width="100%"/> 
     <br>
 </p> 
 
@@ -179,10 +174,10 @@ O aprendizado de máquina automatizado permite que você experimente vários alg
 
 2.	Crie um novo trabalho de ML automatizado com as seguintes configurações, usando Next conforme necessário para avançar pela interface do usuário:
 Configurações básicas:
-o	Trabalho nome: mslearn-bike-automl
-o	Nome do novo experimento: mslearn -bike-rental
-o	Descrição: Aprendizado de máquina automatizado para previsão de aluguel de bicicletas
-o	Marcadores: nenhum
+- **Trabalho nome:** mslearn-bike-automl
+- **Nome do novo experimento:** mslearn -bike-rental
+- **Descrição:** Aprendizado de máquina automatizado para previsão de aluguel de bicicletas
+- **Marcadores:** nenhum
 
 <p align="center">
     <img  src="../imagens/01_15_Create_AutomatedML.png" width="100%"/> 
@@ -190,32 +185,32 @@ o	Marcadores: nenhum
 </p> 
 
 Tarefa tipo e dados:
-o	Selecione tarefa tipo: Regressão
+    - **Selecione tarefa tipo:** Regressão
 <p align="center">
     <img  src="../imagens/01_16_Tarefa_Regressao.png" width="100%"/> 
     <br>
 </p> 
 
-o	Selecionar conjunto de dados: crie um novo conjunto de dados com as seguintes configurações:
-o	Tipo de dados:
-	Nome: aluguel de bicicletas
-	Descrição: Histórico bicicleta dados de aluguel
-	Tipo: Tabular
+- **Selecionar conjunto de dados:** crie um novo conjunto de dados com as seguintes configurações:
+    - **Tipo de dados:**
+        -  **Nome:** aluguel de bicicletas
+        -  **Descrição:** Histórico bicicleta dados de aluguel
+        -  **Tipo:** Tabular
 <p align="center">
     <img  src="../imagens/01_17_Select_Dataset.png" width="100%"/> 
     <br>
 </p> 
 
-o	Fonte de dados:
-	Selecione De arquivos da web
+- **Fonte de dados:**
+    -  Selecione De arquivos da web
 <p align="center">
     <img  src="../imagens/01_18_Dataset_WEB.png" width="100%"/> 
     <br>
 </p> 
 
-o	URL da Web:
-	URL da Web: https://aka.ms/bike-rentals
-	Ignorar validação de dados: não selecionar
+- **URL da Web:**
+    -  **URL da Web:** https://aka.ms/bike-rentals
+    -  **Ignorar validação de dados:** não selecionar
  
 <p align="center">
     <img  src="../imagens/01_19_URLWeb.png" width="100%"/> 
@@ -223,22 +218,22 @@ o	URL da Web:
 </p> 
 
 
-o	Configurações:
-	Formato de arquivo: Delimitado
-	Delimitador: Vírgula
-	Codificação: UTF-8
-	Cabeçalhos de coluna: apenas o primeiro arquivo possui cabeçalhos
-	Pular linhas: Nenhuma
-	O conjunto de dados contém dados multilinhas: não selecione
+- **Configurações:**
+    -  **Formato de arquivo:** Delimitado
+    -  **Delimitador:** Vírgula
+    -  **Codificação:** UTF-8
+    -  **Cabeçalhos de coluna:** apenas o primeiro arquivo possui cabeçalhos
+    -  **Pular linhas:** Nenhuma
+    -  **O conjunto de dados contém dados multilinhas:** não selecione
  
 <p align="center">
     <img  src="../imagens/01_20_SessaoConfiguracao.png" width="100%"/> 
     <br>
 </p> 
 
-o	Esquema:
-	Incluir todas as colunas exceto Caminho
-	Análise o automaticamente detectou tipos
+- **Esquema:**
+    -  Incluir todas as colunas exceto Caminho
+    -  Análise o automaticamente detectou tipos
  
 <p align="center">
     <img  src="../imagens/01_21_Sessao_Esquema.png" width="100%"/> 
@@ -253,51 +248,51 @@ Selecione Criar. Após a criação do conjunto de dados, selecione o conjunto de
 </p> 
 
 
-Configurações de tarefa:
-o	Tarefa tipo: Regressão
-o	Conjunto de dados: aluguel de bicicletas
-o	Coluna de destino: Aluguéis (inteiro)
-o	Adicional definições de configuração:
-o	Métrica primária: raiz do erro quadrático médio normalizado
-o	Explicar melhor modelo: Desmarcado
-o	Usar todos os modelos suportados: Desmarcado. Você restringirá o trabalho para tentar apenas alguns algoritmos específicos.
-o	Modelos permitidos: Selecione apenas RandomForest e LightGBM — normalmente você gostaria de tentar o máximo possível, mas cada modelo adicionado aumenta o tempo necessário para executar o trabalho.
+**Configurações de tarefa:**
+    - **Tarefa tipo:** Regressão
+    - **Conjunto de dados:** aluguel de bicicletas
+    - **Coluna de destino:** Aluguéis (inteiro)
+    - **Adicional definições de configuração:**
+        - **Métrica primária:** raiz do erro quadrático médio normalizado
+        - **Explicar melhor modelo:** Desmarcado
+        - **Usar todos os modelos suportados:** Desmarcado. Você restringirá o trabalho para tentar apenas alguns algoritmos específicos.
+        - **Modelos permitidos:** Selecione apenas RandomForest e LightGBM — normalmente você gostaria de tentar o máximo possível, mas cada modelo adicionado aumenta o tempo necessário para executar o trabalho.
 <p align="center">
     <img  src="../imagens/01_23_RandomForest.png" width="100%"/> 
     <br>
 </p> 
 
-o	Limites: Expandir essa seção
-o	Máximo de testes: 3
-o	Máximo simultâneo testes: 3
-o	Máximo de nós: 3
-o	Limite de pontuação da métrica: 0,085 (para que, se um modelo atingir uma pontuação da métrica de erro quadrático médio normalizado de 0,085 ou menos, o trabalho termina.)
-o	Tempo limite: 15
-o	Tempo limite de iteração: 15
-o	Habilitar cedo rescisão: selecionado
-o	Validação e teste:
-o	Validação tipo: Divisão de validação de treinamento
-o	Percentagem de dados de validação: 10
-o	Conjunto de dados de teste: Nenhum
+- **Limites:** Expandir essa seção
+    - **Máximo de testes:** 3
+    - **Máximo simultâneo testes:** 3
+    - **Máximo de nós:** 3
+    - **Limite de pontuação da métrica:** 0,085 (para que, se um modelo atingir uma pontuação da métrica de erro quadrático médio normalizado de 0,085 ou menos, o trabalho termina.)
+    - **Tempo limite:** 15
+    - **Tempo limite de iteração:** 15
+    - **Habilitar cedo rescisão:** selecionado
+- **Validação e teste:**
+    - **Validação tipo:** Divisão de validação de treinamento
+    - **Percentagem de dados de validação:** 10
+    - **Conjunto de dados de teste:** Nenhum
 <p align="center">
     <img  src="../imagens/01_24_SessaoConfigTarefas.png" width="100%"/> 
     <br>
 </p> 
 
 
-Computação:
-o	Selecione o tipo de computação: sem servidor
-o	Máquina virtual tipo: CPU
-o	Máquina virtual nível: Dedicado
-o	Tamanho da máquina virtual: Standard_DS3_V2*
-o	Número de instâncias: 1
+**Computação:**
+    - **Selecione o tipo de computação:** sem servidor
+    - **Máquina virtual tipo:** CPU
+    - **Máquina virtual nível:** Dedicado
+    - **Tamanho da máquina virtual:** Standard_DS3_V2*
+    - **Número de instâncias:** 1
 <p align="center">
     <img  src="../imagens/01_25_SessaoComputacao.png" width="100%"/> 
     <br>
 </p> 
 
-
 * Se a sua assinatura restringir os tamanhos de VM disponíveis para você, escolha qualquer tamanho disponível.
+
 3.	Envie o trabalho de treinamento. Ele inicia automaticamente.
 <p align="center">
     <img  src="../imagens/01_26_TrainningModel.png" width="100%"/> 
@@ -328,7 +323,7 @@ Quando o trabalho automatizado de aprendizado de máquina for concluído, você 
 
 3.	Para acessar as métricas do modelo treinado, na página do modelo, acesso o link informado em "Criado por trabalho". 
 <p align="center">
-    <img  src="../imagens/01_30_CriadoporTrabalho.png" width="100%"/> 
+    <img  src="../imagens/01_30_CriadoporTrabalho.png" width="80%"/> 
     <br>
 </p> 
 
@@ -345,8 +340,8 @@ Quando o trabalho automatizado de aprendizado de máquina for concluído, você 
 </p> 
 
 Revise os gráficos que mostram o desempenho do modelo. 
-•	residuals mostra os resíduos (as diferenças entre os valores previstos e reais) como um histograma.
-•	predicted_true compara os valores preditivos contra os valores verdadeiros.
+    - **residuals** mostra os resíduos (as diferenças entre os valores previstos e reais) como um histograma.
+    - **predicted_true** compara os valores preditivos contra os valores verdadeiros.
 
  
 ## Implantar e testar o modelo
@@ -354,15 +349,15 @@ Revise os gráficos que mostram o desempenho do modelo.
 
 1.	 De volta à a guia Modelo do melhor modelo treinado pelo seu trabalho automatizado de machine learning, selecione Implantar e use a opção de serviço Web
 <p align="center">
-    <img  src="../imagens/01_33_Graficos_Metricas.png" width="100%"/> 
+    <img  src="../imagens/01_33_Graficos_Metricas.png" width="80%"/> 
     <br>
 </p> 
 
 2.	Para implantar o modelo com as seguintes configurações:
-o	Nome: prever-aluguéis
-o	Descrição: Prever ciclo aluguéis
-o	Tipo de computação: Instância de Contêiner do Azure
-o	Habilitar autenticação: selecionado
+    - **Nome:** prever-aluguéis
+    - **Descrição:** Prever ciclo aluguéis
+    - **Tipo de computação:** Instância de Contêiner do Azure
+    - **Habilitar autenticação:** selecionado
 <p align="center">
     <img  src="../imagens/01_34_Implantar_Modelo.png" width="100%"/> 
     <br>
@@ -370,7 +365,7 @@ o	Habilitar autenticação: selecionado
 
 3.	Aguarde o início da implantação – isso pode levar alguns segundos. O status de implantação do endpoint de previsão de aluguel será indicado na parte principal da página como Running .
 <p align="center">
-    <img  src="../imagens/01_35_Implantar_NomeModelo.png" width="100%"/> 
+    <img  src="../imagens/01_35_Implantar_NomeModelo.png" width="60%"/> 
     <br>
 </p> 
 
@@ -385,6 +380,7 @@ o	Habilitar autenticação: selecionado
 
 
 Agora você pode testar seu serviço implantado.
+
 1.	No estúdio Azure Machine Learning, no menu esquerdo, selecione Endpoints e abra o ponto final em tempo real de previsão de alugueis.
 <p align="center">
     <img  src="../imagens/01_37_Succed_Model.png" width="100%"/> 
@@ -393,7 +389,7 @@ Agora você pode testar seu serviço implantado.
 
 2.	Na tela de Endpoint, confirmamos o status "Succeed" do deploy, e clicamos na aba "Test"
 <p align="center">
-    <img  src="../imagens/01_38_Endpoints.png" width="100%"/> 
+    <img  src="../imagens/01_38_Endpoints.png" width="80%"/> 
     <br>
 </p> 
 
@@ -453,7 +449,7 @@ O serviço web que você criou está hospedado em uma instância de contêiner d
 
 1. Acesse a página do portal e clique para abrir o menu lateral esquerdo:
 <p align="center">
-    <img  src="../imagens/01_41_Limpar_Menu.png" width="100%"/> 
+    <img  src="../imagens/01_41_Limpar_Menu.png" width="80%"/> 
     <br>
 </p> 
 
@@ -486,9 +482,9 @@ O serviço web que você criou está hospedado em uma instância de contêiner d
     <img  src="../imagens/01_45_Limpar_Modal.png" width="100%"/> 
     <br>
 </p> 
-
+6
 <p align="center">
-    <img  src="../imagens/01_46_Limpar_Modal_Confirma.png" width="100%"/> 
+    <img  src="../imagens/01_46_Limpar_Modal_Confirma.png" width="40%"/> 
     <br>
 </p> 
 
@@ -517,7 +513,7 @@ O objetivo deste exercício é obter uma noção geral de como os serviços de I
 2.	O Content Safety Studio é configurado como muitos outros estúdios para serviços de IA do Azure. No menu na parte superior da tela, clique no ícone à esquerda do Azure AI . Você verá uma lista suspensa de outros estúdios projetados para desenvolvimento com os serviços de IA do Azure. Você pode clicar no ícone novamente para ocultar a lista.
 
 <p align="center">
-    <img  src="../imagens/01_48_Content_Menu.png" width="100%"/> 
+    <img  src="../imagens/01_48_Content_Menu.png" width="40%"/> 
     <br>
 </p> 
 
@@ -540,11 +536,11 @@ Antes de utilizar o estúdio, é necessário associar um recurso de serviços Az
 </p> 
 
 1.	Na página Criar Segurança de Conteúdo no Portal do Azure , você precisa configurar vários detalhes para criar seu recurso. Configure-o com o seguintes configurações:
-o	Assinatura: Sua subscrição Azure .
-o	Grupo de recursos: selecione ou crie um grupo de recursos com um nome exclusivo.
-o	Região: Escolha qualquer região disponível.
-o	Nome: Insira um nome exclusivo.
-o	Preços nível: F0 grátis
+    - **Assinatura:** Sua subscrição Azure .
+    - **Grupo de recursos:** selecione ou crie um grupo de recursos com um nome exclusivo.
+    - **Região:** Escolha qualquer região disponível.
+    - **Nome:** Insira um nome exclusivo.
+    - **Preços nível:** F0 grátis
 2.	Selecione Revisar + Criar e revise a configuração. Em seguida, selecione Criar. A tela indicará quando a implantação for concluída.
 
 
