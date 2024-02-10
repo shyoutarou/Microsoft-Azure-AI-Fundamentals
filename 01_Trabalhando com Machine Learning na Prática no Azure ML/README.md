@@ -1,9 +1,6 @@
-
-<h1 align="center">
+<p align="center">
     <img align="right" src="../imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
-    <br>
-    <br>
-</h1>
+</p>
 
 <h1>
     <a href="https://www.dio.me/">
@@ -24,11 +21,9 @@ Estrutura do projeto:
 
 ### Rascunho da Arquitetura:
 
-<h1 align="center">
-    <br>
-    <img align="right" src="../imagens/01_01_Arquitetura.png" width="100"/> 
-    <br>
-</h1>
+<p align="center">
+   <img align="right" src="../imagens/01_01_Arquitetura.png" width="100"/> 
+</p>
 
 ### Como entregar esse projeto?
 1. Crie um novo repositório no github com um nome a sua preferência
@@ -50,10 +45,9 @@ Valéria Baptista - [Linkedin](https://www.linkedin.com/in/valeriabaptista/)
 Primeiro passo é criar uma [subscrição do Azure](
 https://azure.microsoft.com)
 
-<h1 align="center">
+<p align="center">
     <img align="right" src="../imagens/01_02_Portal.png" width=""/> 
-    <br><br>
-</h1>
+</p>
 
 Preencher o formulário. ⚠️ É necessário se cadastrar e ter um cartão de crédito 💳
 
