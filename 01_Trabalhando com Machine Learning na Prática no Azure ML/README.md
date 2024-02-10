@@ -6,7 +6,7 @@
     <a href="https://www.dio.me/">
      <img align="center" width="60px" src="https://hermes.dio.me/lab_projects/badges/87d332d0-5198-4a2f-b159-38c8c2976954.png"></a>
     <span> Trabalhando com Machine Learning</span>
-</h1>
+</p>
 
 ## Criando modelo de previsão - Passo a passo
 
@@ -22,7 +22,7 @@ Estrutura do projeto:
 ### Rascunho da Arquitetura:
 
 <p align="center">
-   <img align="right" src="../imagens/01_01_Arquitetura.png" width="100"/> 
+   <img align="right" src="../imagens/01_01_Arquitetura.png" width="60%"/> 
 </p>
 
 ### Como entregar esse projeto?
@@ -46,25 +46,25 @@ Primeiro passo é criar uma [subscrição do Azure](
 https://azure.microsoft.com)
 
 <p align="center">
-    <img align="right" src="../imagens/01_02_Portal.png" width=""/> 
+    <img align="right" src="../imagens/01_02_Portal.png" width="100%"/> 
 </p>
 
 Preencher o formulário. ⚠️ É necessário se cadastrar e ter um cartão de crédito 💳
 
-<h1 align="center">
-    <img align="right" src="../imagens/01_03_Formulario.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_03_Formulario.png" width="100%"/> 
     <br>
-</h1>
+</p>
 
 Antes de começar a configurar o serviço de Machine learning iremos deixar criado um Grupo de Recursos, que auxiliará a organizarmos nossos recursos:
 •	Resource group: LABAI-900
 •	Name: laboratorioai900 (Create New)
 •	Region: East US
 
-<h1 align="center">
-    <img align="right" src="../imagens/01_04_Create_resourceGroup.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_04_Create_resourceGroup.png" width="100%"/> 
     <br>
-</h1>
+</p>
 
 
 Para utilizar o Azure Machine Learning, é necessário aprovisionar um espaço de trabalho do Azure Machine Learning na sua subscrição do Azure. Depois, você poderá usar o estúdio Azure Machine Learning para trabalhar com os recursos do seu workspace. Utilizaremos para isso o ML automatizado com as seguintes configurações:
@@ -90,10 +90,10 @@ Para utilizar o Azure Machine Learning, é necessário aprovisionar um espaço d
 1.	Entre no portal do Azure em https://portal.azure.com usando suas credenciais da Microsoft.
 2.	Selecione + Criar um recurso , pesquise Machine Learning e crie um novo recurso do Azure Machine Learning com as seguintes configurações:
  
-<h1 align="center">
-    <img align="right" src="../imagens/01_05_MarketPlace_ML.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_05_MarketPlace_ML.png" width="100%"/> 
     <br>
-</h1>
+</p>
 
 o	Assinatura: Sua subscrição Azure.
 o	Grupo de recursos: Crie ou selecione um grupo de recursos.
@@ -104,58 +104,58 @@ o	Cofre de chaves: Observe o novo cofre de chaves padrão que será criado para 
 o	Insights de aplicativo: observe o novo recurso padrão de insights de aplicativo que será criado para seu espaço de trabalho.
 o	Registro de contêiner: Nenhum (um será criado automaticamente na primeira vez que você implantar um modelo em um contêiner).
  
-<h1 align="center">
-    <img align="right" src="../imagens/01_06_Create_ML.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_06_Create_ML.png" width="100%"/> 
     <br>
-</h1>
+</p>
 
 3.	Selecione Revisar + criar e selecione Criar..
  
-<h1 align="center">
-    <img align="right" src="../imagens/01_07_Revisar_ML.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_07_Revisar_ML.png" width="100%"/> 
     <br>
-</h1>
+</p>
 
 4.	Aguarde a criação do seu espaço de trabalho (pode demorar alguns minutos)
 
  
-<h1 align="center">
-    <img align="right" src="../imagens/01_08__Deploy_ML.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_08__Deploy_ML.png" width="100%"/> 
     <br>
-</h1>
+</p>
 
 
 5.	Em seguida, vá para o recurso implantado.
 
  
-<h1 align="center">
-    <img align="right" src="../imagens/01_09_Goto_ML.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_09_Goto_ML.png" width="100%"/> 
     <br>
     <br>
-</h1>
-<h1 align="center">
-    <img align="right" src="../imagens/01_10_LabAI900.png" width=""/> 
+</p>
+<p align="center">
+    <img align="right" src="../imagens/01_10_LabAI900.png" width="100%"/> 
     <br>
-</h1>
+</p>
  
 6.	Selecione Launch Studio (ou abra uma nova guia do navegador e navegue até https://ml.azure.com e entre no Azure Machine Learning Studio usando sua conta da Microsoft). Feche quaisquer mensagens que são exibidos.
  
- <h1 align="center">
-    <img align="right" src="../imagens/01_11_LauchStudio.png" width=""/> 
+ <p align="center">
+    <img align="right" src="../imagens/01_11_LauchStudio.png" width="100%"/> 
     <br>
-</h1>
+</p>
 
-<h1 align="center">
-    <img align="right" src="../imagens/01_12_Azure.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_12_Azure.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 7.	No estúdio Azure Machine Learning, você deverá ver seu espaço de trabalho recém-criado. Caso contrário, selecione Todos os espaços de trabalho no menu à esquerda e selecione o espaço de trabalho que você acabou de criar.
 
-<h1 align="center">
-    <img align="right" src="../imagens/01_13_Select_LabAI900.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_13_Select_LabAI900.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 ## Usar aprendizado de máquina automatizado para treinar um modelo
 
@@ -167,10 +167,10 @@ O aprendizado de máquina automatizado permite que você experimente vários alg
 1.	No Azure Machine Learning Studio , veja a página Automated ML (em Authoring ).
  
 
-<h1 align="center">
-    <img align="right" src="../imagens/01_14_Automated_ML.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_14_Automated_ML.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 2.	Crie um novo trabalho de ML automatizado com as seguintes configurações, usando Next conforme necessário para avançar pela interface do usuário:
 Configurações básicas:
@@ -179,43 +179,43 @@ o	Nome do novo experimento: mslearn -bike-rental
 o	Descrição: Aprendizado de máquina automatizado para previsão de aluguel de bicicletas
 o	Marcadores: nenhum
 
-<h1 align="center">
-    <img align="right" src="../imagens/01_15_Create_AutomatedML.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_15_Create_AutomatedML.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 Tarefa tipo e dados:
 o	Selecione tarefa tipo: Regressão
-<h1 align="center">
-    <img align="right" src="../imagens/01_16_Tarefa_Regressao.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_16_Tarefa_Regressao.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 o	Selecionar conjunto de dados: crie um novo conjunto de dados com as seguintes configurações:
 o	Tipo de dados:
 	Nome: aluguel de bicicletas
 	Descrição: Histórico bicicleta dados de aluguel
 	Tipo: Tabular
-<h1 align="center">
-    <img align="right" src="../imagens/01_17_Select_Dataset.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_17_Select_Dataset.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 o	Fonte de dados:
 	Selecione De arquivos da web
-<h1 align="center">
-    <img align="right" src="../imagens/01_18_Dataset_WEB.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_18_Dataset_WEB.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 o	URL da Web:
 	URL da Web: https://aka.ms/bike-rentals
 	Ignorar validação de dados: não selecionar
  
-<h1 align="center">
-    <img align="right" src="../imagens/01_19_URLWeb.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_19_URLWeb.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 
 o	Configurações:
@@ -226,26 +226,26 @@ o	Configurações:
 	Pular linhas: Nenhuma
 	O conjunto de dados contém dados multilinhas: não selecione
  
-<h1 align="center">
-    <img align="right" src="../imagens/01_20_SessaoConfiguracao.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_20_SessaoConfiguracao.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 o	Esquema:
 	Incluir todas as colunas exceto Caminho
 	Análise o automaticamente detectou tipos
  
-<h1 align="center">
-    <img align="right" src="../imagens/01_21_Sessao_Esquema.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_21_Sessao_Esquema.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 
 Selecione Criar. Após a criação do conjunto de dados, selecione o conjunto de dados de aluguel de bicicletas para continuar a enviar o trabalho de ML automatizado.
-<h1 align="center">
-    <img align="right" src="../imagens/01_22_SelectCriar_AutomatedML.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_22_SelectCriar_AutomatedML.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 
 Configurações de tarefa:
@@ -257,10 +257,10 @@ o	Métrica primária: raiz do erro quadrático médio normalizado
 o	Explicar melhor modelo: Desmarcado
 o	Usar todos os modelos suportados: Desmarcado. Você restringirá o trabalho para tentar apenas alguns algoritmos específicos.
 o	Modelos permitidos: Selecione apenas RandomForest e LightGBM — normalmente você gostaria de tentar o máximo possível, mas cada modelo adicionado aumenta o tempo necessário para executar o trabalho.
-<h1 align="center">
-    <img align="right" src="../imagens/01_23_RandomForest.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_23_RandomForest.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 o	Limites: Expandir essa seção
 o	Máximo de testes: 3
@@ -274,10 +274,10 @@ o	Validação e teste:
 o	Validação tipo: Divisão de validação de treinamento
 o	Percentagem de dados de validação: 10
 o	Conjunto de dados de teste: Nenhum
-<h1 align="center">
-    <img align="right" src="../imagens/01_24_SessaoConfigTarefas.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_24_SessaoConfigTarefas.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 
 Computação:
@@ -286,58 +286,58 @@ o	Máquina virtual tipo: CPU
 o	Máquina virtual nível: Dedicado
 o	Tamanho da máquina virtual: Standard_DS3_V2*
 o	Número de instâncias: 1
-<h1 align="center">
-    <img align="right" src="../imagens/01_25_SessaoComputacao.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_25_SessaoComputacao.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 
 * Se a sua assinatura restringir os tamanhos de VM disponíveis para você, escolha qualquer tamanho disponível.
 3.	Envie o trabalho de treinamento. Ele inicia automaticamente.
-<h1 align="center">
-    <img align="right" src="../imagens/01_26_TrainningModel.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_26_TrainningModel.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 4.	Espere o trabalho terminar. Pode demorar um pouco
-<h1 align="center">
-    <img align="right" src="../imagens/01_27_WaitingFinishung.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_27_WaitingFinishung.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 
 ## Avaliar o modelo
 
 Quando o trabalho automatizado de aprendizado de máquina for concluído, você poderá revisar o melhor modelo treinado.
 1.	Na guia Visão geral do trabalho automatizado de aprendizado de máquina, observe o melhor resumo do modelo.
-<h1 align="center">
-    <img align="right" src="../imagens/01_28_ReviseModelo.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_28_ReviseModelo.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 2.	Selecione o texto em Nome do algoritmo do melhor modelo para visualizar seus detalhes. 
-<h1 align="center">
-    <img align="right" src="../imagens/01_29_NomeAlgoritmo.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_29_NomeAlgoritmo.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 3.	Para acessar as métricas do modelo treinado, na página do modelo, acesso o link informado em "Criado por trabalho". 
-<h1 align="center">
-    <img align="right" src="../imagens/01_30_CriadoporTrabalho.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_30_CriadoporTrabalho.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 4.	Também é possível acessar o trabalho informado na opção do menu "Tarefas (jobs)". Há um Pipeline com as etapas do processo de aprendizado e os testes realizados
-<h1 align="center">
-    <img align="right" src="../imagens/01_31_Tarefas_jobs.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_31_Tarefas_jobs.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 5.	Selecione a guia Métricas e selecione os gráficos residuais e predito_true se eles ainda não estiverem selecionados.
-<h1 align="center">
-    <img align="right" src="../imagens/01_32_Metricas.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_32_Metricas.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 Revise os gráficos que mostram o desempenho do modelo. 
 •	residuals mostra os resíduos (as diferenças entre os valores previstos e reais) como um histograma.
@@ -348,32 +348,32 @@ Revise os gráficos que mostram o desempenho do modelo.
 
 
 1.	 De volta à a guia Modelo do melhor modelo treinado pelo seu trabalho automatizado de machine learning, selecione Implantar e use a opção de serviço Web
-<h1 align="center">
-    <img align="right" src="../imagens/01_33_Graficos_Metricas.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_33_Graficos_Metricas.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 2.	Para implantar o modelo com as seguintes configurações:
 o	Nome: prever-aluguéis
 o	Descrição: Prever ciclo aluguéis
 o	Tipo de computação: Instância de Contêiner do Azure
 o	Habilitar autenticação: selecionado
-<h1 align="center">
-    <img align="right" src="../imagens/01_34_Implantar_Modelo.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_34_Implantar_Modelo.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 3.	Aguarde o início da implantação – isso pode levar alguns segundos. O status de implantação do endpoint de previsão de aluguel será indicado na parte principal da página como Running .
-<h1 align="center">
-    <img align="right" src="../imagens/01_35_Implantar_NomeModelo.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_35_Implantar_NomeModelo.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 4.	Aguarde até que o status da implantação mude para Succeeded . Esse poderia leve de 5 a 10 minutos.
-<h1 align="center">
-    <img align="right" src="../imagens/01_36_Running_Model.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_36_Running_Model.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
  
 
 ## Testar o serviço implantado 
@@ -381,22 +381,22 @@ o	Habilitar autenticação: selecionado
 
 Agora você pode testar seu serviço implantado.
 1.	No estúdio Azure Machine Learning, no menu esquerdo, selecione Endpoints e abra o ponto final em tempo real de previsão de alugueis.
-<h1 align="center">
-    <img align="right" src="../imagens/01_37_Succed_Model.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_37_Succed_Model.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 2.	Na tela de Endpoint, confirmamos o status "Succeed" do deploy, e clicamos na aba "Test"
-<h1 align="center">
-    <img align="right" src="../imagens/01_38_Endpoints.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_38_Endpoints.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 3.	Na página do endpoint em tempo real de previsão de aluguel, visualize a guia Teste.
-<h1 align="center">
-    <img align="right" src="../imagens/01_40_Testar_Alugueis.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_40_Testar_Alugueis.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 4.	No painel Dados de entrada para testar o endpoint , substitua o modelo JSON pelos seguintes dados de entrada:
 
@@ -447,45 +447,45 @@ O serviço web que você criou está hospedado em uma instância de contêiner d
 ## Excluir Grupo de Recursos 
 
 1. Acesse a página do portal e clique para abrir o menu lateral esquerdo:
-<h1 align="center">
-    <img align="right" src="../imagens/01_41_Limpar_Menu.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_41_Limpar_Menu.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 2. Clique em "Resource Groups":
-<h1 align="center">
-    <img align="right" src="../01_42_Limpar_Menu_Grupo.png" width=""/> 
+<p align="center">
+    <img align="right" src="../01_42_Limpar_Menu_Grupo.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 3. Selecione o grupo que deseja deletar:
-<h1 align="center">
-    <img align="right" src="../imagens/01_43_Limpar_Delete_Grupo.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_43_Limpar_Delete_Grupo.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 4. No ambiente do recurso referido, clique em "Delete resource group":
-<h1 align="center">
-    <img align="right" src="../imagens/01_44_Limpar_Select_Grupo.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_44_Limpar_Select_Grupo.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 5. Confirme as informações, informe o nome do recurso no campo abaixo e clique em delete:
-<h1 align="center">
-    <img align="right" src="../imagens/01_44_Limpar_Select_Grupo.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_44_Limpar_Select_Grupo.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 6. Confirme a exclusão:
-<h1 align="center">
-    <img align="right" src="../imagens/01_45_Limpar_Modal.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_45_Limpar_Modal.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
-<h1 align="center">
-    <img align="right" src="../imagens/01_46_Limpar_Modal_Confirma.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_46_Limpar_Modal_Confirma.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 Obs.: A exclusão pode demorar um pouco para acontecer. Aguarde um pouco e confira que o recurso foi excluído dando um refresh (F5) na página para que a lista de grupos de recursos seja atualizada.
 
@@ -502,37 +502,37 @@ O objetivo deste exercício é obter uma noção geral de como os serviços de I
 
 ## Navegar o Content Safety Studio
 
-<h1 align="center">
-    <img align="right" src="../imagens/01_47_Content_Safety.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_47_Content_Safety.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
  
 1.	Abra o Content Safety Studio . Se não estiver logado, você precisará fazer login. Selecione Entrar no canto superior direito da tela. Use o email e a senha associados à sua assinatura do Azure para entrar.
 2.	O Content Safety Studio é configurado como muitos outros estúdios para serviços de IA do Azure. No menu na parte superior da tela, clique no ícone à esquerda do Azure AI . Você verá uma lista suspensa de outros estúdios projetados para desenvolvimento com os serviços de IA do Azure. Você pode clicar no ícone novamente para ocultar a lista.
 
-<h1 align="center">
-    <img align="right" src="../imagens/01_48_Content_Menu.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_48_Content_Menu.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 
 ## Associar um recurso ao estúdio
 
 Antes de utilizar o estúdio, é necessário associar um recurso de serviços Azure AI ao estúdio. Dependendo do estúdio, você pode achar que precisa de um recurso específico de serviço único ou pode usar um recurso geral de vários serviços. No caso do Content Safety Studio, você pode usar o serviço criando um recurso de segurança de conteúdo de serviço único ou um recurso geral de vários serviços do Azure AI . Nas etapas abaixo, criaremos um recurso de segurança de conteúdo de serviço único.
 1.	No canto superior direito da tela, clique no ícone Configurações.
-<h1 align="center">
-    <img align="right" src="../imagens/01_49_Content_Config.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_49_Content_Config.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 2.	Na página Configurações, você verá uma guia Diretório e uma guia Recursos. Na guia Recurso, selecione Criar um novo recurso. Isso leva você à página para criar um recurso no Portal do Azure.
 3.	A guia Diretório permite que os usuários selecionem diferentes diretórios a partir dos quais criar recursos. Você não precisa alterar suas configurações, a menos que queira usar um diretório diferente.
 
-<h1 align="center">
-    <img align="right" src="../imagens/01_50_Content_REsource.png" width=""/> 
+<p align="center">
+    <img align="right" src="../imagens/01_50_Content_REsource.png" width="100%"/> 
     <br>
-</h1> 
+</p> 
 
 1.	Na página Criar Segurança de Conteúdo no Portal do Azure , você precisa configurar vários detalhes para criar seu recurso. Configure-o com o seguintes configurações:
 o	Assinatura: Sua subscrição Azure .
