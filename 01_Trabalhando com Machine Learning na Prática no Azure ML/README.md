@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
+    <img align="right" src="../imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
     <br>
 </h1>
 
@@ -24,7 +24,7 @@ Estrutura do projeto:
 ### Rascunho da Arquitetura:
 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_01_Arquitetura.png" width=""/> 
+    <img align="right" src="../imagens/01_01_Arquitetura.png" width=""/> 
     <br>
 </h1>
 
@@ -51,14 +51,14 @@ Primeiro passo é criar uma [subscrição do Azure](
 https://azure.microsoft.com)
 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_02_Portal.png" width=""/> 
+    <img align="right" src="../imagens/01_02_Portal.png" width=""/> 
     <br>
 </h1>
 
 Preencher o formulário. ⚠️ É necessário se cadastrar e ter um cartão de crédito 💳
 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_03_Formulario.png" width=""/> 
+    <img align="right" src="../imagens/01_03_Formulario.png" width=""/> 
     <br>
 </h1>
 
@@ -68,7 +68,7 @@ Antes de começar a configurar o serviço de Machine learning iremos deixar cria
 •	Region: East US
 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_04_Create_resourceGroup.png" width=""/> 
+    <img align="right" src="../imagens/01_04_Create_resourceGroup.png" width=""/> 
     <br>
 </h1>
 
@@ -97,7 +97,7 @@ Para utilizar o Azure Machine Learning, é necessário aprovisionar um espaço d
 2.	Selecione + Criar um recurso , pesquise Machine Learning e crie um novo recurso do Azure Machine Learning com as seguintes configurações:
  
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_05_MarketPlace_ML.png" width=""/> 
+    <img align="right" src="../imagens/01_05_MarketPlace_ML.png" width=""/> 
     <br>
 </h1>
 
@@ -111,14 +111,14 @@ o	Insights de aplicativo: observe o novo recurso padrão de insights de aplicati
 o	Registro de contêiner: Nenhum (um será criado automaticamente na primeira vez que você implantar um modelo em um contêiner).
  
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_06_Create_ML.png" width=""/> 
+    <img align="right" src="../imagens/01_06_Create_ML.png" width=""/> 
     <br>
 </h1>
 
 3.	Selecione Revisar + criar e selecione Criar..
  
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_07_Revisar_ML.png" width=""/> 
+    <img align="right" src="../imagens/01_07_Revisar_ML.png" width=""/> 
     <br>
 </h1>
 
@@ -126,7 +126,7 @@ o	Registro de contêiner: Nenhum (um será criado automaticamente na primeira ve
 
  
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_08__Deploy_ML.png" width=""/> 
+    <img align="right" src="../imagens/01_08__Deploy_ML.png" width=""/> 
     <br>
 </h1>
 
@@ -135,30 +135,31 @@ o	Registro de contêiner: Nenhum (um será criado automaticamente na primeira ve
 
  
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_09_Goto_ML.png" width=""/> 
+    <img align="right" src="../imagens/01_09_Goto_ML.png" width=""/> 
+    <br>
     <br>
 </h1>
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_10_LabAI900.png" width=""/> 
+    <img align="right" src="../imagens/01_10_LabAI900.png" width=""/> 
     <br>
 </h1>
  
 6.	Selecione Launch Studio (ou abra uma nova guia do navegador e navegue até https://ml.azure.com e entre no Azure Machine Learning Studio usando sua conta da Microsoft). Feche quaisquer mensagens que são exibidos.
  
  <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_11_LauchStudio.png" width=""/> 
+    <img align="right" src="../imagens/01_11_LauchStudio.png" width=""/> 
     <br>
 </h1>
 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_12_Azure.png" width=""/> 
+    <img align="right" src="../imagens/01_12_Azure.png" width=""/> 
     <br>
 </h1> 
 
 7.	No estúdio Azure Machine Learning, você deverá ver seu espaço de trabalho recém-criado. Caso contrário, selecione Todos os espaços de trabalho no menu à esquerda e selecione o espaço de trabalho que você acabou de criar.
 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_13_Select_LabAI900.png" width=""/> 
+    <img align="right" src="../imagens/01_13_Select_LabAI900.png" width=""/> 
     <br>
 </h1> 
 
@@ -173,7 +174,7 @@ O aprendizado de máquina automatizado permite que você experimente vários alg
  
 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_14_Automated_ML.png" width=""/> 
+    <img align="right" src="../imagens/01_14_Automated_ML.png" width=""/> 
     <br>
 </h1> 
 
@@ -185,14 +186,14 @@ o	Descrição: Aprendizado de máquina automatizado para previsão de aluguel de
 o	Marcadores: nenhum
 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_15_Create_AutomatedML.png" width=""/> 
+    <img align="right" src="../imagens/01_15_Create_AutomatedML.png" width=""/> 
     <br>
 </h1> 
 
 Tarefa tipo e dados:
 o	Selecione tarefa tipo: Regressão
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_16_Tarefa_Regressao.png" width=""/> 
+    <img align="right" src="../imagens/01_16_Tarefa_Regressao.png" width=""/> 
     <br>
 </h1> 
 
@@ -202,14 +203,14 @@ o	Tipo de dados:
 	Descrição: Histórico bicicleta dados de aluguel
 	Tipo: Tabular
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_17_Select_Dataset.png" width=""/> 
+    <img align="right" src="../imagens/01_17_Select_Dataset.png" width=""/> 
     <br>
 </h1> 
 
 o	Fonte de dados:
 	Selecione De arquivos da web
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_18_Dataset_WEB.png" width=""/> 
+    <img align="right" src="../imagens/01_18_Dataset_WEB.png" width=""/> 
     <br>
 </h1> 
 
@@ -218,7 +219,7 @@ o	URL da Web:
 	Ignorar validação de dados: não selecionar
  
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_19_URLWeb.png" width=""/> 
+    <img align="right" src="../imagens/01_19_URLWeb.png" width=""/> 
     <br>
 </h1> 
 
@@ -232,7 +233,7 @@ o	Configurações:
 	O conjunto de dados contém dados multilinhas: não selecione
  
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_20_SessaoConfiguracao.png" width=""/> 
+    <img align="right" src="../imagens/01_20_SessaoConfiguracao.png" width=""/> 
     <br>
 </h1> 
 
@@ -241,14 +242,14 @@ o	Esquema:
 	Análise o automaticamente detectou tipos
  
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_21_Sessao_Esquema.png" width=""/> 
+    <img align="right" src="../imagens/01_21_Sessao_Esquema.png" width=""/> 
     <br>
 </h1> 
 
 
 Selecione Criar. Após a criação do conjunto de dados, selecione o conjunto de dados de aluguel de bicicletas para continuar a enviar o trabalho de ML automatizado.
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_22_SelectCriar_AutomatedML.png" width=""/> 
+    <img align="right" src="../imagens/01_22_SelectCriar_AutomatedML.png" width=""/> 
     <br>
 </h1> 
 
@@ -263,7 +264,7 @@ o	Explicar melhor modelo: Desmarcado
 o	Usar todos os modelos suportados: Desmarcado. Você restringirá o trabalho para tentar apenas alguns algoritmos específicos.
 o	Modelos permitidos: Selecione apenas RandomForest e LightGBM — normalmente você gostaria de tentar o máximo possível, mas cada modelo adicionado aumenta o tempo necessário para executar o trabalho.
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_23_RandomForest.png" width=""/> 
+    <img align="right" src="../imagens/01_23_RandomForest.png" width=""/> 
     <br>
 </h1> 
 
@@ -280,7 +281,7 @@ o	Validação tipo: Divisão de validação de treinamento
 o	Percentagem de dados de validação: 10
 o	Conjunto de dados de teste: Nenhum
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_24_SessaoConfigTarefas.png" width=""/> 
+    <img align="right" src="../imagens/01_24_SessaoConfigTarefas.png" width=""/> 
     <br>
 </h1> 
 
@@ -292,7 +293,7 @@ o	Máquina virtual nível: Dedicado
 o	Tamanho da máquina virtual: Standard_DS3_V2*
 o	Número de instâncias: 1
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_25_SessaoComputacao.png" width=""/> 
+    <img align="right" src="../imagens/01_25_SessaoComputacao.png" width=""/> 
     <br>
 </h1> 
 
@@ -300,13 +301,13 @@ o	Número de instâncias: 1
 * Se a sua assinatura restringir os tamanhos de VM disponíveis para você, escolha qualquer tamanho disponível.
 3.	Envie o trabalho de treinamento. Ele inicia automaticamente.
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_26_TrainningModel.png" width=""/> 
+    <img align="right" src="../imagens/01_26_TrainningModel.png" width=""/> 
     <br>
 </h1> 
 
 4.	Espere o trabalho terminar. Pode demorar um pouco
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_27_WaitingFinishung.png" width=""/> 
+    <img align="right" src="../imagens/01_27_WaitingFinishung.png" width=""/> 
     <br>
 </h1> 
 
@@ -316,31 +317,31 @@ o	Número de instâncias: 1
 Quando o trabalho automatizado de aprendizado de máquina for concluído, você poderá revisar o melhor modelo treinado.
 1.	Na guia Visão geral do trabalho automatizado de aprendizado de máquina, observe o melhor resumo do modelo.
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_28_ReviseModelo.png" width=""/> 
+    <img align="right" src="../imagens/01_28_ReviseModelo.png" width=""/> 
     <br>
 </h1> 
 
 2.	Selecione o texto em Nome do algoritmo do melhor modelo para visualizar seus detalhes. 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_29_NomeAlgoritmo.png" width=""/> 
+    <img align="right" src="../imagens/01_29_NomeAlgoritmo.png" width=""/> 
     <br>
 </h1> 
 
 3.	Para acessar as métricas do modelo treinado, na página do modelo, acesso o link informado em "Criado por trabalho". 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_30_CriadoporTrabalho.png" width=""/> 
+    <img align="right" src="../imagens/01_30_CriadoporTrabalho.png" width=""/> 
     <br>
 </h1> 
 
 4.	Também é possível acessar o trabalho informado na opção do menu "Tarefas (jobs)". Há um Pipeline com as etapas do processo de aprendizado e os testes realizados
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_31_Tarefas_jobs.png" width=""/> 
+    <img align="right" src="../imagens/01_31_Tarefas_jobs.png" width=""/> 
     <br>
 </h1> 
 
 5.	Selecione a guia Métricas e selecione os gráficos residuais e predito_true se eles ainda não estiverem selecionados.
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_32_Metricas.png" width=""/> 
+    <img align="right" src="../imagens/01_32_Metricas.png" width=""/> 
     <br>
 </h1> 
 
@@ -354,7 +355,7 @@ Revise os gráficos que mostram o desempenho do modelo.
 
 1.	 De volta à a guia Modelo do melhor modelo treinado pelo seu trabalho automatizado de machine learning, selecione Implantar e use a opção de serviço Web
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_33_Graficos_Metricas.png" width=""/> 
+    <img align="right" src="../imagens/01_33_Graficos_Metricas.png" width=""/> 
     <br>
 </h1> 
 
@@ -364,19 +365,19 @@ o	Descrição: Prever ciclo aluguéis
 o	Tipo de computação: Instância de Contêiner do Azure
 o	Habilitar autenticação: selecionado
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_34_Implantar_Modelo.png" width=""/> 
+    <img align="right" src="../imagens/01_34_Implantar_Modelo.png" width=""/> 
     <br>
 </h1> 
 
 3.	Aguarde o início da implantação – isso pode levar alguns segundos. O status de implantação do endpoint de previsão de aluguel será indicado na parte principal da página como Running .
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_35_Implantar_NomeModelo.png" width=""/> 
+    <img align="right" src="../imagens/01_35_Implantar_NomeModelo.png" width=""/> 
     <br>
 </h1> 
 
 4.	Aguarde até que o status da implantação mude para Succeeded . Esse poderia leve de 5 a 10 minutos.
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_36_Running_Model.png" width=""/> 
+    <img align="right" src="../imagens/01_36_Running_Model.png" width=""/> 
     <br>
 </h1> 
  
@@ -387,19 +388,19 @@ o	Habilitar autenticação: selecionado
 Agora você pode testar seu serviço implantado.
 1.	No estúdio Azure Machine Learning, no menu esquerdo, selecione Endpoints e abra o ponto final em tempo real de previsão de alugueis.
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_37_Succed_Model.png" width=""/> 
+    <img align="right" src="../imagens/01_37_Succed_Model.png" width=""/> 
     <br>
 </h1> 
 
 2.	Na tela de Endpoint, confirmamos o status "Succeed" do deploy, e clicamos na aba "Test"
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_38_Endpoints.png" width=""/> 
+    <img align="right" src="../imagens/01_38_Endpoints.png" width=""/> 
     <br>
 </h1> 
 
 3.	Na página do endpoint em tempo real de previsão de aluguel, visualize a guia Teste.
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_39_TEst_Endpoint.png" width=""/> 
+    <img align="right" src="../imagens/01_40_Testar_Alugueis.png" width=""/> 
     <br>
 </h1> 
 
@@ -453,42 +454,42 @@ O serviço web que você criou está hospedado em uma instância de contêiner d
 
 1. Acesse a página do portal e clique para abrir o menu lateral esquerdo:
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_40_Limpar_Menu.png" width=""/> 
+    <img align="right" src="../imagens/01_41_Limpar_Menu.png" width=""/> 
     <br>
 </h1> 
 
 2. Clique em "Resource Groups":
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_41_Limpar_Menu_Grupo.png" width=""/> 
+    <img align="right" src="../01_42_Limpar_Menu_Grupo.png" width=""/> 
     <br>
 </h1> 
 
 3. Selecione o grupo que deseja deletar:
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_42_Limpar_Delete_Grupo.png" width=""/> 
+    <img align="right" src="../imagens/01_43_Limpar_Delete_Grupo.png" width=""/> 
     <br>
 </h1> 
 
 4. No ambiente do recurso referido, clique em "Delete resource group":
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_43_WaitingFinishung.png" width=""/> 
+    <img align="right" src="../imagens/01_44_Limpar_Select_Grupo.png" width=""/> 
     <br>
 </h1> 
 
 5. Confirme as informações, informe o nome do recurso no campo abaixo e clique em delete:
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_44_Limpar_Select_Grupo.png" width=""/> 
+    <img align="right" src="../imagens/01_44_Limpar_Select_Grupo.png" width=""/> 
     <br>
 </h1> 
 
 6. Confirme a exclusão:
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_45_Limpar_Modal.png" width=""/> 
+    <img align="right" src="../imagens/01_45_Limpar_Modal.png" width=""/> 
     <br>
 </h1> 
 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_46_Limpar_Modal_Confirma.png" width=""/> 
+    <img align="right" src="../imagens/01_46_Limpar_Modal_Confirma.png" width=""/> 
     <br>
 </h1> 
 
@@ -508,7 +509,7 @@ O objetivo deste exercício é obter uma noção geral de como os serviços de I
 ## Navegar o Content Safety Studio
 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_47_Content_Safety.png" width=""/> 
+    <img align="right" src="../imagens/01_47_Content_Safety.png" width=""/> 
     <br>
 </h1> 
 
@@ -517,7 +518,7 @@ O objetivo deste exercício é obter uma noção geral de como os serviços de I
 2.	O Content Safety Studio é configurado como muitos outros estúdios para serviços de IA do Azure. No menu na parte superior da tela, clique no ícone à esquerda do Azure AI . Você verá uma lista suspensa de outros estúdios projetados para desenvolvimento com os serviços de IA do Azure. Você pode clicar no ícone novamente para ocultar a lista.
 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_48_Content_Menu.png" width=""/> 
+    <img align="right" src="../imagens/01_48_Content_Menu.png" width=""/> 
     <br>
 </h1> 
 
@@ -527,7 +528,7 @@ O objetivo deste exercício é obter uma noção geral de como os serviços de I
 Antes de utilizar o estúdio, é necessário associar um recurso de serviços Azure AI ao estúdio. Dependendo do estúdio, você pode achar que precisa de um recurso específico de serviço único ou pode usar um recurso geral de vários serviços. No caso do Content Safety Studio, você pode usar o serviço criando um recurso de segurança de conteúdo de serviço único ou um recurso geral de vários serviços do Azure AI . Nas etapas abaixo, criaremos um recurso de segurança de conteúdo de serviço único.
 1.	No canto superior direito da tela, clique no ícone Configurações.
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_49_Content_Config.png" width=""/> 
+    <img align="right" src="../imagens/01_49_Content_Config.png" width=""/> 
     <br>
 </h1> 
 
@@ -535,7 +536,7 @@ Antes de utilizar o estúdio, é necessário associar um recurso de serviços Az
 3.	A guia Diretório permite que os usuários selecionem diferentes diretórios a partir dos quais criar recursos. Você não precisa alterar suas configurações, a menos que queira usar um diretório diferente.
 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/01_50_Content_REsource.png" width=""/> 
+    <img align="right" src="../imagens/01_50_Content_REsource.png" width=""/> 
     <br>
 </h1> 
 
