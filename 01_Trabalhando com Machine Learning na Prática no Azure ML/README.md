@@ -160,7 +160,7 @@ Para utilizar o Azure Machine Learning, é necessário aprovisionar um espaço d
 ## Usar aprendizado de máquina automatizado para treinar um modelo
 
 
-O aprendizado de máquina automatizado permite que você experimente vários algoritmos e parâmetros para treinar vários modelos e identificar o melhor para seus dados. Neste exercício, você usará um conjunto de dados de detalhes históricos de aluguel de bicicletas para treinar um modelo que prevê o número de aluguel de bicicletas esperado em um determinado dia, com base em características sazonais e meteorológicas. Os dados usados neste exercício são derivados da Capital Bikeshare (https://capitalbikeshare.com/system-data) e são usados de acordo com o contrato de licença de dados publicado (https://ride.capitalbikeshare.com/data-license-agreement)
+O aprendizado de máquina automatizado permite que você experimente vários algoritmos e parâmetros para treinar vários modelos e identificar o melhor para seus dados. Neste exercício, você usará um conjunto de dados de detalhes históricos de aluguel de bicicletas para treinar um modelo que prevê o número de aluguel de bicicletas esperado em um determinado dia, com base em características sazonais e meteorológicas. Os dados usados neste exercício são derivados da [Capital Bikeshare](https://capitalbikeshare.com/system-data) e são usados de acordo com o [contrato de licença de dados publicado](https://ride.capitalbikeshare.com/data-license-agreement)
 
 
 
@@ -173,18 +173,18 @@ O aprendizado de máquina automatizado permite que você experimente vários alg
 </p> 
 
 2.	Crie um novo trabalho de ML automatizado com as seguintes configurações, usando Next conforme necessário para avançar pela interface do usuário:
-Configurações básicas:
-- **Trabalho nome:** mslearn-bike-automl
-- **Nome do novo experimento:** mslearn -bike-rental
-- **Descrição:** Aprendizado de máquina automatizado para previsão de aluguel de bicicletas
-- **Marcadores:** nenhum
+**Configurações básicas:**
+    - **Trabalho nome:** mslearn-bike-automl
+    - **Nome do novo experimento:** mslearn -bike-rental
+    - **Descrição:** Aprendizado de máquina automatizado para previsão de aluguel de bicicletas
+    - **Marcadores:** nenhum
 
 <p align="center">
     <img  src="../imagens/01_15_Create_AutomatedML.png" width="100%"/> 
     <br>
 </p> 
 
-Tarefa tipo e dados:
+- **Tarefa tipo e dados**:
     - **Selecione tarefa tipo:** Regressão
 <p align="center">
     <img  src="../imagens/01_16_Tarefa_Regressao.png" width="100%"/> 
@@ -280,7 +280,7 @@ Selecione Criar. Após a criação do conjunto de dados, selecione o conjunto de
 </p> 
 
 
-**Computação:**
+- **Computação:**
     - **Selecione o tipo de computação:** sem servidor
     - **Máquina virtual tipo:** CPU
     - **Máquina virtual nível:** Dedicado
@@ -317,13 +317,13 @@ Quando o trabalho automatizado de aprendizado de máquina for concluído, você 
 
 2.	Selecione o texto em Nome do algoritmo do melhor modelo para visualizar seus detalhes. 
 <p align="center">
-    <img  src="../imagens/01_29_NomeAlgoritmo.png" width="100%"/> 
+    <img  src="../imagens/01_29_NomeAlgoritmo.png" width="70%"/> 
     <br>
 </p> 
 
 3.	Para acessar as métricas do modelo treinado, na página do modelo, acesso o link informado em "Criado por trabalho". 
 <p align="center">
-    <img  src="../imagens/01_30_CriadoporTrabalho.png" width="80%"/> 
+    <img  src="../imagens/01_30_CriadoporTrabalho.png" width="70%"/> 
     <br>
 </p> 
 
@@ -479,10 +479,9 @@ O serviço web que você criou está hospedado em uma instância de contêiner d
 
 6. Confirme a exclusão:
 <p align="center">
-    <img  src="../imagens/01_45_Limpar_Modal.png" width="100%"/> 
+    <img  src="../imagens/01_45_Limpar_Modal.png" width="60%"/> 
     <br>
 </p> 
-6
 <p align="center">
     <img  src="../imagens/01_46_Limpar_Modal_Confirma.png" width="40%"/> 
     <br>
@@ -523,7 +522,7 @@ O objetivo deste exercício é obter uma noção geral de como os serviços de I
 Antes de utilizar o estúdio, é necessário associar um recurso de serviços Azure AI ao estúdio. Dependendo do estúdio, você pode achar que precisa de um recurso específico de serviço único ou pode usar um recurso geral de vários serviços. No caso do Content Safety Studio, você pode usar o serviço criando um recurso de segurança de conteúdo de serviço único ou um recurso geral de vários serviços do Azure AI . Nas etapas abaixo, criaremos um recurso de segurança de conteúdo de serviço único.
 1.	No canto superior direito da tela, clique no ícone Configurações.
 <p align="center">
-    <img  src="../imagens/01_49_Content_Config.png" width="100%"/> 
+    <img  src="../imagens/01_49_Content_Config.png" width="60%"/> 
     <br>
 </p> 
 
@@ -571,7 +570,7 @@ Depois de terminar, você poderá excluir o recurso Segurança de Conteúdo do P
 
 ### Repos Auxiliares
 - [giselle-ferreira](
-https://github.com/giselle-ferreira/ai-search-microsoft-azure)
+https://github.com/giselle-ferreira/automl-microsoft-azure)
 - [alexklenio](
  https://github.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP01%20-%20Trabalhando%20com%20Machine%20Learning)
 - [francodof](
