@@ -40,4 +40,3 @@ const xpGanho = ;
 // Imprime a quantidade de XP ganho
 print("Voce ganhou " + xpGanho + " XP!");
 ```
- 
