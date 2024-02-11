@@ -26,37 +26,38 @@ Neste LAB, aplicaremos técnicas de organização de documentos e conduziremos p
 - [Explorar um Índice de Pesquisa de IA do Azure (IU)](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11-ai-search.html)
 
 
-Explore um índice do Azure AI Search (UI)
+## Explore um índice do Azure AI Search (UI)
 
 
 Você foi solicitado a ajudar a criar uma solução de mineração de conhecimento que facilite a busca de insights sobre as experiências dos clientes. Você decide criar um índice do Azure AI Search usando dados extraídos de avaliações de clientes.
 Nisso _ laboratório você vai:
-•	Criar recursos Azure
-•	Extrair dados de uma fonte de dados
-•	Enriqueça os dados com habilidades de IA
-•	Utilize o indexador do Azure no portal do Azure
-•	Consulte seu índice de pesquisa
-•	Revise os resultados salvos em uma Loja de conhecimento
+- Criar recursos Azure
+- Extrair dados de uma fonte de dados
+- Enriqueça os dados com habilidades de IA
+- Utilize o indexador do Azure no portal do Azure
+- Consulte seu índice de pesquisa
+- Revise os resultados salvos em uma Loja de conhecimento
 
-Recursos do Azure necessários
+### Recursos do Azure necessários
 
 A solução que você criará para o Fourth Coffee requer os seguintes recursos na sua assinatura do Azure:
-•	Um recurso do Azure AI Search , que gerenciará a indexação e a consulta.
-•	Um recurso de serviços de IA do Azure , que fornece serviços de IA para habilidades que sua solução de pesquisa pode usar para enriquecer os dados na fonte de dados com insights gerados por IA.
+- Um recurso do Azure AI Search , que gerenciará a indexação e a consulta.
+- Um recurso de serviços de IA do Azure , que fornece serviços de IA para habilidades que sua solução de pesquisa pode usar para enriquecer os dados na fonte de dados com insights gerados por IA.
 Nota Os recursos do Azure AI Search e dos serviços Azure AI devem estar no mesmo local!
-•	Uma conta de armazenamento com contêineres de blobs, que armazenará documentos brutos e outras coleções de tabelas, objetos ou arquivos.
+- Uma conta de armazenamento com contêineres de blobs, que armazenará documentos brutos e outras coleções de tabelas, objetos ou arquivos.
 
-Crie um recurso do Azure AI Search
+## Crie um recurso do Azure AI Search
+
 1.	Entre no portal do Azure .
 2.	Clique no botão + Criar um recurso, pesquise Azure AI Search 
  
 
 3.	Crie um Recurso Azure AI Search com as seguintes configurações:
-o	Assinatura: Sua subscrição Azure .
-o	Grupo de recursos: selecione ou crie um grupo de recursos com um nome exclusivo .
-o	Nome do serviço: um nome exclusivo .
-o	Localização: Escolha qualquer região disponível .
-o	Preços nível: Básico
+- Assinatura: Sua subscrição Azure .
+- Grupo de recursos: selecione ou crie um grupo de recursos com um nome exclusivo .
+- Nome do serviço: um nome exclusivo .
+- Localização: Escolha qualquer região disponível .
+- Preços nível: Básico
  
 
 
@@ -67,7 +68,7 @@ o	Preços nível: Básico
 
 5.	Após a conclusão da implantação, selecione Ir para o recurso . Na página de visão geral do Azure AI Search, você pode adicionar índices, importar dados e pesquisar índices criados.
 
-Crie um recurso de serviços de IA do Azure
+## Crie um recurso de serviços de IA do Azure
 
 
 Você precisará provisionar um recurso de serviços de IA do Azure que esteja no mesmo local que seu recurso do Azure AI Search. Sua solução de pesquisa usará esse recurso para enriquecer os dados no armazenamento de dados com insights gerados por IA.
@@ -76,18 +77,19 @@ Você precisará provisionar um recurso de serviços de IA do Azure que esteja n
 
 
 2.	Você será levado a uma página para criar um recurso de serviços de IA do Azure. Configure-o com o seguintes configurações:
-o	Assinatura: Sua subscrição Azure.
-o	Grupo de recursos: O mesmo grupo de recursos que seu recurso do Azure AI Search .
-o	Região: o mesmo local do recurso do Azure AI Search .
-o	Nome: Um único nome .
-o	Preços nível : Padrão S0
-o	Ao marcar esta caixa, confirmo que li e compreendi todos os termos abaixo: Selecionado
+- Assinatura: Sua subscrição Azure.
+- Grupo de recursos: O mesmo grupo de recursos que seu recurso do Azure AI Search .
+- Região: o mesmo local do recurso do Azure AI Search .
+- Nome: Um único nome .
+- Preços nível : Padrão S0
+- Ao marcar esta caixa, confirmo que li e compreendi todos os termos abaixo: Selecionado
  
 
 3.	Selecione Revisar + criar . Depois de ver a resposta Validation Passed , selecione Create .
 4.	Aguarde a conclusão da implantação e visualize os detalhes da implantação.
 
-Crie um armazenamento conta
+## Crie um armazenamento conta
+
 1.	Retorne à página inicial do portal do Azure e selecione o botão + Criar um recurso .
  
 
@@ -95,12 +97,12 @@ Crie um armazenamento conta
  
 
 3.	Crie um recurso de conta de armazenamento com as seguintes configurações:
-o	Assinatura: Sua subscrição Azure.
-o	Grupo de recursos: O mesmo grupo de recursos que os recursos do Azure AI Search e dos serviços Azure AI.
-o	Nome da conta de armazenamento: um nome exclusivo.
-o	Localização: Escolha qualquer localização disponível.
-o	Padrão de desempenho
-o	Redundância: armazenamento localmente redundante (LRS)
+- Assinatura: Sua subscrição Azure.
+- Grupo de recursos: O mesmo grupo de recursos que os recursos do Azure AI Search e dos serviços Azure AI.
+- Nome da conta de armazenamento: um nome exclusivo.
+- Localização: Escolha qualquer localização disponível.
+- Padrão de desempenho
+- Redundância: armazenamento localmente redundante (LRS)
  
 
  
@@ -113,15 +115,15 @@ o	Redundância: armazenamento localmente redundante (LRS)
 
 6.	Altere a configuração de Permitir acesso anônimo de Blob para Habilitado e selecione Salvar .
 
-Carregar documentos para Armazenamento Azure
+## Carregar documentos para Armazenamento Azure
 
 1.	No painel do menu esquerdo, selecione Containers.
  
 2.	Selecione + Contêiner. Um painel do seu lado direito é aberto.
 3.	Insira as seguintes configurações e clique em Criar:
-o	Nome: Coffee-Reviews
-o	Nível de acesso público: Container (acesso de leitura anônimo para containers e blobs)
-o	Avançado: sem alterações.
+- Nome: Coffee-Reviews
+- Nível de acesso público: Container (acesso de leitura anônimo para containers e blobs)
+- Avançado: sem alterações.
  
 
 4.	Em uma nova guia do navegador, baixe as avaliações compactadas do café em https://aka.ms/mslearn-coffee-reviews e extraia os arquivos para a pasta de avaliações .
@@ -132,7 +134,7 @@ o	Avançado: sem alterações.
  
 8.	Depois que o upload for concluído, você poderá fechar o painel Upload blob . Seus documentos estão agora em seu contêiner de armazenamento de avaliações de café.
 
-Indexar os documentos
+## Indexar os documentos
 
 Depois de armazenar os documentos, você poderá usar o Azure AI Search para extrair insights dos documentos. O portal do Azure fornece um assistente de importação de dados. Com este assistente, você pode criar automaticamente um índice e um indexador para fontes de dados suportadas. Você usará o assistente para criar um índice e importar seus documentos de pesquisa do armazenamento para o índice do Azure AI Search.
 1.	No portal do Azure, navegue até o recurso do Azure AI Search. Na página Visão geral, selecione Importar dados.
@@ -145,40 +147,40 @@ Depois de armazenar os documentos, você poderá usar o Azure AI Search para ext
 
 
 3.	Conclua o armazenamento de dados detalhes com o seguindo valores :
-o	Fonte de dados: Azure Blob Storage
-o	Nome da fonte de dados: coffee-customer-data
-o	Dados a extrair: Conteúdo e metadados
-o	Análise modo: Padrão
-o	Cadeia de conexão: *Selecione Escolha uma conexão existente. Selecione sua conta de armazenamento, selecione o contêiner de avaliações de café e clique em Selecionar.
-o	Gerenciou identidade autenticação: Nenhuma
-o	Nome do contêiner: esta configuração é preenchida automaticamente depois que você escolhe uma conexão existente.
-o	Pasta Blob : deixe em branco .
-o	Descrição: Avaliações sobre Fourth Coffee Shops.
+- Fonte de dados: Azure Blob Storage
+- Nome da fonte de dados: coffee-customer-data
+- Dados a extrair: Conteúdo e metadados
+- Análise modo: Padrão
+- Cadeia de conexão: *Selecione Escolha uma conexão existente. Selecione sua conta de armazenamento, selecione o contêiner de avaliações de café e clique em Selecionar.
+- Gerenciou identidade autenticação: Nenhuma
+- Nome do contêiner: esta configuração é preenchida automaticamente depois que você escolhe uma conexão existente.
+- Pasta Blob : deixe em branco .
+- Descrição: Avaliações sobre Fourth Coffee Shops.
 4.	Selecione Próximo: Adicionar habilidades cognitivas (opcional).
 5.	Na secção Anexar Serviços Cognitivos, selecione o seu recurso de serviços Azure AI.
 6.	Na seção Adicionar enriquecimentos :
-o	Altere o nome da qualificação para coffee-skillset .
-o	Marque a caixa de seleção Habilitar OCR e mesclar todo o texto no campo merged_content .
+- Altere o nome da qualificação para coffee-skillset .
+- Marque a caixa de seleção Habilitar OCR e mesclar todo o texto no campo merged_content .
 Nota É importante selecionar Habilitar OCR para ver todas as opções de campo enriquecido.
-o	Certifique-se de que o campo Dados de origem esteja configurado como merged_content .
-o	Altere o nível de granularidade de enriquecimento para Páginas (blocos de 5.000 caracteres) .
-o	Não selecione Habilitar enriquecimento incremental
-o	Selecione os seguintes campos enriquecidos:
+- Certifique-se de que o campo Dados de origem esteja configurado como merged_content .
+- Altere o nível de granularidade de enriquecimento para Páginas (blocos de 5.000 caracteres) .
+- Não selecione Habilitar enriquecimento incremental
+- Selecione os seguintes campos enriquecidos:
 
-Cognitivo Habilidade	Parâmetro	Nome do campo
+Cognitivo Habilidade	Parâmetr- Nome do campo
 Extrair localização nomes	 	Localizações
 Extrair chave frases	 	frases chave
-Detectar sentimento	 	sentimento
+Detectar sentiment-  	sentimento
 Gerar Tag de imagens	 	imagemTags
 Gerar legendas de imagens	 	legenda da imagem
 7.	Em Salvar enriquecimentos em um armazenamento de conhecimento , selecione:
-o	Imagem projeções
-o	Documentos
-o	Páginas
-o	Frases chave
-o	Entidades
-o	Imagem detalhes
-o	Imagem referências
+- Imagem projeções
+- Documentos
+- Páginas
+- Frases chave
+- Entidades
+- Imagem detalhes
+- Imagem referências
 Nota Se aparecer um aviso solicitando uma cadeia de conexão de conta de armazenamento .
  
 h.	Selecione Escolha uma conexão existente . Escolha a conta de armazenamento que você criou anteriormente.
@@ -194,14 +196,14 @@ j.	Selecione o contêiner de armazenamento de conhecimento e clique em Seleciona
 14.	Deixe a programação definida como Once .
 15.	Expanda as opções avançadas. Certifique-se de que a opção Base-64 Encode Keys esteja selecionada, pois as chaves de codificação podem tornar o índice mais eficiente.
 16.	Selecione Enviar para criar a fonte de dados, o conjunto de habilidades, o índice e o indexador. O indexador é executado automaticamente e executa o pipeline de indexação, que:
-o	Extrai os campos de metadados do documento e o conteúdo da fonte de dados.
-o	Executa o conjunto de habilidades cognitivas para gerar campos mais enriquecidos.
-o	Mapeia os campos extraídos para o índice.
+- Extrai os campos de metadados do documento e o conteúdo da fonte de dados.
+- Executa o conjunto de habilidades cognitivas para gerar campos mais enriquecidos.
+- Mapeia os campos extraídos para o índice.
 17.	Na metade inferior da página Visão geral do recurso Azure AI Search, selecione a guia Indexadores. Esta guia mostra o indexador de café recém-criado. Espere um minuto e selecione &orarr; Atualize até que o Status indique sucesso.
 18.	Selecione o nome do indexador para ver mais detalhes.
  
 
-Consultar o índice
+## Consultar o índice
 
 
 Use o Search Explorer para escrever e testar consultas. O explorador de pesquisa é uma ferramenta incorporada no portal do Azure que oferece uma maneira fácil de validar a qualidade do seu índice de pesquisa. Você pode usar o Search Explorer para escrever consultas e revisar resultados em JSON.
@@ -220,7 +222,8 @@ Observação Se uma mensagem Para pesquisar no portal, permita a origem do porta
 
 Nota Veja como os resultados são classificados por @search.score . Esta é a pontuação atribuída pelo mecanismo de pesquisa para mostrar o quão próximos os resultados correspondem à consulta fornecida.
 5.	Um dos problemas que podemos querer resolver é por que pode haver certas avaliações. Vamos dar uma olhada nas frases-chave associadas à avaliação negativa. O que você acha que pode ser a causa da revisão?
-Revise o armazenamento de conhecimento
+
+## Revise o armazenamento de conhecimento
 
 Vamos ver o poder do armazenamento de conhecimento em ação. Ao executar o assistente Importar dados, você também criou um armazenamento de conhecimento. Dentro do armazenamento de conhecimento, você encontrará os dados enriquecidos extraídos pelas habilidades de IA que persistem na forma de projeções e tabelas.
 1.	No portal do Azure, navegue de volta para a sua conta de armazenamento do Azure.
@@ -257,7 +260,7 @@ Se não pretende fazer mais exercícios, exclua todos os recursos que não preci
 
 2. Clique em "Resource Groups":
 <p align="center">
-    <img  src="../imagens/01_42_Limpar_Menu_Grupo.png" width="40%"/> 
+    <img  src="../imagens/01_42_Limpar_Menu_Grupo.png" width="30%"/> 
     <br>
 </p> 
 

@@ -33,7 +33,7 @@ Neste LAB, iremos praticar a criação de reconhecimento facial, identificação
 
 
 
-Detectar rostos no Vision Studio
+## Detectar rostos no Vision Studio
 
 
 Para testar as capacidades de deteção facial do serviço Azure AI Face, utilizará o Azure Vision Studio . Esta é uma plataforma baseada em UI que permite explorar os recursos do Azure AI Vision sem a necessidade de escrever nenhum código.
@@ -46,12 +46,12 @@ Você pode usar o serviço Azure AI Face com um recurso multisserviço de servi�
  
 
 3.	Você será levado a uma página para criar um recurso de serviços de IA do Azure. Configure-o com o seguintes configurações:
-o	Assinatura: Sua subscrição Azure.
-o	Grupo de recursos : selecione ou crie um grupo de recursos com um nome exclusivo .
-o	Região : Leste dos EUA.
-o	Nome : Insira um nome exclusivo .
-o	Preços nível : Padrão S0.
-o	Ao marcar esta caixa, confirmo que li e compreendi todos os termos abaixo: Selecionado.
+- Assinatura: Sua subscrição Azure.
+- Grupo de recursos : selecione ou crie um grupo de recursos com um nome exclusivo .
+- Região : Leste dos EUA.
+- Nome : Insira um nome exclusivo .
+- Preços nível : Padrão S0.
+- Ao marcar esta caixa, confirmo que li e compreendi todos os termos abaixo: Selecionado.
  
 
 
@@ -72,7 +72,8 @@ Nota : Se o seu recurso não estiver listado, pode ser necessário atualizar a p
 5.	Feche a página de configurações selecionando o “x” no canto superior direito da tela.
 
 
-Detecte rostos no Vision Studio
+## Detecte rostos no Vision Studio
+
 1.	Num navegador web, navegue até Vision Studio em https://portal.vision.cognitive.azure.com .
 2.	Na página inicial Introdução ao Vision, selecione a guia Face e, em seguida, selecione o bloco Detectar rostos em uma imagem.
  
@@ -98,7 +99,7 @@ Detecte rostos no Vision Studio
 Neste exercício você explorou como os serviços de IA do Azure podem detectar rostos em imagens. Se você tiver tempo, sinta-se à vontade para experimentar as imagens de exemplo ou algumas de suas próprias imagens.
 
 
-Ler texto no Vision Studio
+## Ler texto no Vision Studio
 
 Um desafio comum da visão computacional é detectar e interpretar texto incorporado em uma imagem. Isso é conhecido como reconhecimento óptico de caracteres (OCR). Neste exercício você usará um recurso de serviços de IA do Azure, que inclui serviços do Azure AI Vision. Em seguida, você usará o Vision Studio para testar o OCR com diferentes tipos de imagens.
 
@@ -115,8 +116,8 @@ Texto de imagens no Vision Studio
 4.	Selecione https://aka.ms/mslearn-ocr-images para baixar ocr-images.zip . Em seguida, abra a pasta.
 5.	No portal, selecione Procurar um arquivo e navegue até a pasta em seu computador onde você baixou ocr-images.zip. Selecione advert.jpg e selecione Abrir .
 6.	Agora revise o que é retornado:
-o	Nos atributos detectados , qualquer texto encontrado na imagem é organizado em uma estrutura hierárquica de regiões, linhas e palavras.
-o	Na imagem, a localização do texto é indicada por uma caixa delimitadora, conforme mostrado aqui:
+- Nos atributos detectados , qualquer texto encontrado na imagem é organizado em uma estrutura hierárquica de regiões, linhas e palavras.
+- Na imagem, a localização do texto é indicada por uma caixa delimitadora, conforme mostrado aqui:
  
 
 7.	Agora você pode tentar outra imagem. Selecione Procurar um arquivo e navegue até a pasta onde você salvou os arquivos do GitHub. Selecione letter.jpg 
@@ -127,7 +128,7 @@ o	Na imagem, a localização do texto é indicada por uma caixa delimitadora, co
  
 
 
-Analise imagens no Vision Studio
+## Analise imagens no Vision Studio
 
 O Azure AI Vision inclui inúmeras capacidades para compreender o conteúdo e o contexto da imagem e extrair informações das imagens. O Azure AI Vision Studio permite-lhe experimentar muitas das capacidades de análise de imagens.
 
@@ -154,7 +155,7 @@ O recurso Dense Captions difere do recurso Caption porque fornece diversas legen
  
 Mova o cursor do mouse sobre as outras legendas da lista e observe como a caixa delimitadora muda na imagem para destacar a parte da imagem usada para gerar a legenda.
 
-Marcando imagens
+## Marcando imagens
 
 O próximo recurso que você experimentará é a funcionalidade Extrair Tags. Extrair tags é baseado em milhares de objetos reconhecíveis, incluindo seres vivos, cenários e ações.
 1.	Retorne à página inicial do Vision Studio e selecione o bloco Extrair tags comuns de imagens na guia Análise de imagem .
@@ -165,7 +166,7 @@ O próximo recurso que você experimentará é a funcionalidade Extrair Tags. Ex
 5.	Revise a lista de tags extraídas da imagem e a pontuação de confiança de cada uma no painel de atributos detectados. Aqui, a pontuação de confiança é a probabilidade de o texto do atributo detectado descrever o que realmente está na imagem. Observe na lista de tags que ela inclui não apenas objetos, mas ações, como compras , vendas e permanência .
  
 
-Detecção de objetos
+## Detecção de objetos
 
 Nesta tarefa, você usa o recurso de detecção de objetos da Análise de imagem. A detecção de objetos detecta e extrai caixas delimitadoras com base em milhares de objetos e seres vivos reconhecíveis.
 1.	Retorne à página inicial do Vision Studio e selecione o bloco Detectar objetos comuns em imagens na guia Análise de imagem .
@@ -196,7 +197,7 @@ Se não pretende fazer mais exercícios, exclua todos os recursos que não preci
 
 2. Clique em "Resource Groups":
 <p align="center">
-    <img  src="../imagens/01_42_Limpar_Menu_Grupo.png" width="40%"/> 
+    <img  src="../imagens/01_42_Limpar_Menu_Grupo.png" width="30%"/> 
     <br>
 </p> 
 

@@ -32,7 +32,7 @@ Neste LAB, exploraremos o uso do Azure Speech Studio e a análise linguística p
 
 
 
-Explorar o Estúdio de Fala
+## Explorar o Estúdio de Fala
 
 O serviço Azure AI Speech transcreve a fala em texto e o texto em fala audível. Você pode usar o AI Speech para criar um aplicativo que possa transcrever notas de reuniões ou gerar texto a partir da gravação de entrevistas.
 
@@ -49,17 +49,18 @@ Neste exercício, você criará um recurso AI Speech, a menos que já tenha um r
  
 
 3.	Configure-o com as seguintes configurações:
-o	Nome do novo recurso: Insira um nome exclusivo.
-o	Assinatura: Sua subscrição Azure .
-o	Região : Selecione uma região suportada .
-o	Nível de preços: FO gratuito (se disponível, caso contrário, selecione Padrão S0).
-o	Grupo de recursos: selecione ou crie um grupo de recursos com um nome exclusivo.
+- Nome do novo recurso: Insira um nome exclusivo.
+- Assinatura: Sua subscrição Azure .
+- Região : Selecione uma região suportada .
+- Nível de preços: FO gratuito (se disponível, caso contrário, selecione Padrão S0).
+- Grupo de recursos: selecione ou crie um grupo de recursos com um nome exclusivo.
  
 
 4.	Selecione Criar recurso. Aguarde até que o recurso seja criado e selecione Usar recurso. O Obter iniciado com página de fala é exibido .
 
 
-Explore a fala em texto no Speech Studio
+## Explore a fala em texto no Speech Studio
+
 1.	Selecione https://aka.ms/mslearn-speech-files para baixar o speak.zip . Abra a pasta.
 2.	Na página Introdução à fala, em Fala, localize Fala em tempo real para texto. Selecione Experimente a fala em tempo real para texto .
  
@@ -75,13 +76,13 @@ Explore a fala em texto no Speech Studio
 6.	Revise a saída, que deve ter reconhecido e transcrito com êxito o áudio em texto.
 
 
-Analise texto com Language Studio
+## Analise texto com Language Studio
 
 Neste exercício, você explorará os recursos da linguagem Azure AI analisando alguns exemplos de avaliações de hotéis. Você usará o Language Studio para entender se as avaliações são em sua maioria positivas ou negativas.
 
 O Processamento de Linguagem Natural (PNL) é um ramo da IA que lida com a linguagem escrita e falada. Você pode usar a PNL para construir soluções que extraiam significado semântico de texto ou fala, ou que formulem respostas significativas em linguagem natural.  O Azure AI Language Service inclui análise de texto e recursos de PNL. Isso inclui a identificação de frases-chave no texto e a classificação do texto com base no sentimento.
 
-Crie um recurso de idioma
+### Crie um recurso de idioma
 
 Você pode usar muitos recursos do Azure AI Language com um recurso de idioma ou de serviços do Azure AI . Existem alguns casos em que apenas um recurso Idioma pode ser usado. Para o exercício abaixo, utilizaremos um recurso Linguagem. 
  
@@ -90,13 +91,14 @@ Você pode usar muitos recursos do Azure AI Language com um recurso de idioma ou
 Se ainda não o fez, crie um recurso de idioma na sua assinatura do Azure.
  
 
-Configure seu recurso no Azure AI Language Studio
+## Configure seu recurso no Azure AI Language Studio
+
 1.	Em outra guia do navegador, abra o Language Studio em https://language.cognitive.azure.com e entre.
 2.	Quando solicitado com Select an Azure resource , faça as seguintes configurações:
-o	Diretório do Azure : diretório padrão, o diretório que você está usando
-o	Assinatura do Azure : selecione a assinatura que você está usando
-o	Recurso tipo: Idioma
-o	Nome do recurso: selecione o recurso de serviço de idioma que você acabou de criar
+- Diretório do Azure : diretório padrão, o diretório que você está usando
+- Assinatura do Azure : selecione a assinatura que você está usando
+- Recurso tipo: Idioma
+- Nome do recurso: selecione o recurso de serviço de idioma que você acabou de criar
  
 
 Em seguida, selecione Concluído .
@@ -105,12 +107,11 @@ Observação : se você não for solicitado a escolher um recurso de idioma, pod
 2.	Na página Configurações , visualize a guia Recursos .
 3.	Selecione o recurso que você acabou de criar e selecione Alternar recurso. Verifique se identidade Gerenciada está Habilitado
 
- . 
 
 4.	No topo da página, selecione Language Studio para retornar à página inicial do Language Studio.
 
 
-Analisar avaliações em Language Studio
+## Analisar avaliações em Language Studio
 
 1.	Num navegador web, navegue até Language Studio em https://language.cognitive.azure.com 
 2.	Na página inicial Bem-vindo ao Language Studio, selecione a guia Classificar texto e, em seguida, selecione o bloco Analisar sentimento e extrair opiniões.
@@ -161,7 +162,7 @@ Se não pretende fazer mais exercícios, exclua todos os recursos que não preci
 
 2. Clique em "Resource Groups":
 <p align="center">
-    <img  src="../imagens/01_42_Limpar_Menu_Grupo.png" width="40%"/> 
+    <img  src="../imagens/01_42_Limpar_Menu_Grupo.png" width="30%"/> 
     <br>
 </p> 
 

@@ -340,16 +340,20 @@ Quando o trabalho automatizado de aprendizado de máquina for concluído, você 
 </p> 
 
 Revise os gráficos que mostram o desempenho do modelo. 
-    - **residuals** mostra os resíduos (as diferenças entre os valores previstos e reais) como um histograma.
-    - **predicted_true** compara os valores preditivos contra os valores verdadeiros.
+- **residuals** mostra os resíduos (as diferenças entre os valores previstos e reais) como um histograma.
+- **predicted_true** compara os valores preditivos contra os valores verdadeiros.
 
- 
+<p align="center">
+    <img  src="../imagens/01_33_Graficos_Metricas.png" width="80%"/> 
+    <br>
+</p> 
+
 ## Implantar e testar o modelo
 
 
 1.	 De volta à a guia Modelo do melhor modelo treinado pelo seu trabalho automatizado de machine learning, selecione Implantar e use a opção de serviço Web
 <p align="center">
-    <img  src="../imagens/01_33_Graficos_Metricas.png" width="80%"/> 
+    <img  src="../imagens/01_34_Implantar_Modelo.png" width="100%"/> 
     <br>
 </p> 
 
@@ -359,19 +363,19 @@ Revise os gráficos que mostram o desempenho do modelo.
     - **Tipo de computação:** Instância de Contêiner do Azure
     - **Habilitar autenticação:** selecionado
 <p align="center">
-    <img  src="../imagens/01_34_Implantar_Modelo.png" width="100%"/> 
+    <img  src="../imagens/01_35_Implantar_NomeModelo.png" width="100%"/> 
     <br>
 </p> 
 
 3.	Aguarde o início da implantação – isso pode levar alguns segundos. O status de implantação do endpoint de previsão de aluguel será indicado na parte principal da página como Running .
 <p align="center">
-    <img  src="../imagens/01_35_Implantar_NomeModelo.png" width="50%"/> 
+    <img  src="../imagens/01_36_Running_Model.png" width="50%"/> 
     <br>
 </p> 
 
 4.	Aguarde até que o status da implantação mude para Succeeded . Esse poderia leve de 5 a 10 minutos.
 <p align="center">
-    <img  src="../imagens/01_36_Running_Model.png" width="70%"/> 
+    <img  src="../imagens/01_37_Succed_Model.png" width="70%"/> 
     <br>
 </p> 
  
@@ -383,13 +387,13 @@ Agora você pode testar seu serviço implantado.
 
 1.	No estúdio Azure Machine Learning, no menu esquerdo, selecione Endpoints e abra o ponto final em tempo real de previsão de alugueis.
 <p align="center">
-    <img  src="../imagens/01_37_Succed_Model.png" width="100%"/> 
+    <img  src="../imagens/01_38_Endpoints.png" width="100%"/> 
     <br>
 </p> 
 
 2.	Na tela de Endpoint, confirmamos o status "Succeed" do deploy, e clicamos na aba "Test"
 <p align="center">
-    <img  src="../imagens/01_38_Endpoints.png" width="80%"/> 
+    <img  src="../imagens/01_39_TEst_Endpoint.png" width="80%"/> 
     <br>
 </p> 
 
@@ -455,7 +459,7 @@ O serviço web que você criou está hospedado em uma instância de contêiner d
 
 2. Clique em "Resource Groups":
 <p align="center">
-    <img  src="../imagens/01_42_Limpar_Menu_Grupo.png" width="40%"/> 
+    <img  src="../imagens/01_42_Limpar_Menu_Grupo.png" width="30%"/> 
     <br>
 </p> 
 
