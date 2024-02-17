@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img align="right" src="https://raw.githubusercontent.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/blob/master/imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
+    <img align="right" src="imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
     <br>
 </h1>
 
