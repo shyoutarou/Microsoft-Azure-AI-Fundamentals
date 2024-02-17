@@ -8,7 +8,7 @@
     <span>Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados</span>
 </h1>
 
-## Criando modelo de previsão - Passo a passo
+## Utilizando IA Search - Passo a passo
 
 Neste LAB, aplicaremos técnicas de organização de documentos e conduziremos pesquisas eficientes através da ingestão de dados, seguindo três passos essenciais: ingestão de conhecimento de IA, criação do índice correspondente e exploração dessas funcionalidades. Ao final, ganharemos uma visão prática das potencialidades oferecidas por essas ferramentas na mineração de conhecimento.
 

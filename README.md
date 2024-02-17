@@ -54,6 +54,19 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/04_Azu
 https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Explorando%20os%20Recursos%20de%20IA%20Generativa%20com%20Copilot%20e%20OpenAI)
 
 
+### Links Importantes
+- [Guia de estudo do Exame AI-900: Conceitos básicos de IA do Microsoft Azure](https://learn.microsoft.com/pt-br/credentials/certifications/resources/study-guides/ai-900)
+- [Trilha Microsoft Azure AI Fundamentals](https://learn.microsoft.com/pt-br/training/courses/ai-900t00)
+- [Trilha Microsoft Build: Desafio de IA do Azure](https://learn.microsoft.com/pt-br/collections/e6kjawo10x63?WT.mc_id=cloudskillschallenge_12f32cf8-2cd8-42e1-97dd-001b4a042766)
+- [Trilha AI Fundamentals - Spring challenge](https://learn.microsoft.com/pt-br/collections/moqrtxyokw4e?WT.mc_id=cloudskillschallenge_3ea8480b-4134-4237-bd3e-3b8cc9e68ab0)
+- [Examtopics - Microsoft AI-900 Exam Actual Questions](https://www.examtopics.com/exams/microsoft/ai-900/view/)
+- [Fazer uma avaliação simulada gratuita - Precisa estar logado no Microsoft Learn](https://learn.microsoft.com/pt-br/credentials/certifications/exams/ai-900/practice/assessment?assessmentId=26&assessment-type=practice)
+
+
+
+
+
+
 ## 📜 License
 
 O projeto publicado em 2024 sobre a licença [MIT](./LICENSE) ❤️ 

@@ -8,7 +8,7 @@
     <span> Explorando os Recursos de IA Generativa </span>
 </h1>
 
-## Criando modelo de previsão - Passo a passo
+## Utilizando IA Generativa - Passo a passo
 
 Neste LAB, abordaremos o Copiloto e exploraremos os recursos da OpenAI, concentrando-nos tanto nos filtros de conteúdo quanto na criação. Durante a prática, examinaremos de perto as funcionalidades dessas ferramentas, ao final do LAB, teremos uma compreensão mais aprofundada e prática desses recursos oferecidos pela OpenAI.
 
@@ -296,7 +296,7 @@ Obs.: A exclusão pode demorar um pouco para acontecer. Aguarde um pouco e confi
 
 ### Repos Auxiliares
 - [giselle-ferreira](
-https://github.com/giselle-ferreira/automl-microsoft-azure)
+https://github.com/giselle-ferreira/dio-microsoft-azure-ai-fundamentals/tree/main/Labotat%C3%B3rio%205%20-%20IA%20Generativa)
 - [alexklenio](
 https://github.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP05%20-%20Explorando%20os%20Recursos%20de%20IA%20Generativa)
 
