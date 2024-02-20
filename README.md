@@ -88,7 +88,7 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Exp
 
 ### Outros treinamentos
 - [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?wt.mc_id=examreadiness_pvuepromo_email_wwl&products=azure)
-- [MICROSOFT LEARN CLOUD SKILLS CHALLENGE - 30 Dias de Aprendizagem](https://developer.microsoft.com/pt-br/offers/30-days-to-learn-it?wt.mc_id=esi_30dtli_webpage_wwl)
+- [Microsoft Learn Cloud Skills Challenge - 30 Dias de Aprendizagem](https://developer.microsoft.com/pt-br/offers/30-days-to-learn-it?wt.mc_id=esi_30dtli_webpage_wwl)
 - [Microsoft Conecta+](https://www.microsoft.com/pt-br/conecta/)
 
 ### Sobre a prova
