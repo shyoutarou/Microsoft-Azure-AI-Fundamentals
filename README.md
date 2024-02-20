@@ -60,15 +60,36 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Exp
 - [Questões Measure Up](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
 - [Questões Microsoft Sample Test](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
 
-### Links Importantes
+## Links Importantes
+- [GBEcome Micorsoft Certified](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI)
 - [Guia de estudo do Exame AI-900: Conceitos básicos de IA do Microsoft Azure](https://learn.microsoft.com/pt-br/credentials/certifications/resources/study-guides/ai-900)
+- [Browse all courses, learning paths, and modules](https://learn.microsoft.com/en-us/training/browse/)
+- [Azure for Students](https://azure.microsoft.com/pt-br/free/students/)
+- [Explore free Azure services](https://azure.microsoft.com/en-us/pricing/free-services)
+- [Sobre os exames online com a Pearson VUE](https://learn.microsoft.com/pt-br/credentials/certifications/online-exams)
+
+### Trilhas
+
 - [Trilha Microsoft Azure AI Fundamentals](https://learn.microsoft.com/pt-br/training/courses/ai-900t00)
 - [Trilha Microsoft Build: Desafio de IA do Azure](https://learn.microsoft.com/pt-br/collections/e6kjawo10x63?WT.mc_id=cloudskillschallenge_12f32cf8-2cd8-42e1-97dd-001b4a042766)
 - [Trilha AI Fundamentals - Spring challenge](https://learn.microsoft.com/pt-br/collections/moqrtxyokw4e?WT.mc_id=cloudskillschallenge_3ea8480b-4134-4237-bd3e-3b8cc9e68ab0)
+
+### Perguntas
+
 - [Examtopics - Microsoft AI-900 Exam Actual Questions](https://www.examtopics.com/exams/microsoft/ai-900/view/)
 - [Fazer uma avaliação simulada gratuita - Precisa estar logado no Microsoft Learn](https://learn.microsoft.com/pt-br/credentials/certifications/exams/ai-900/practice/assessment?assessmentId=26&assessment-type=practice)
 - [MICROSOFT LEARN CLOUD SKILLS CHALLENGE - 30 Dias de Aprendizagem](https://developer.microsoft.com/pt-br/offers/30-days-to-learn-it?wt.mc_id=esi_30dtli_webpage_wwl)
 
+
+### Trainnings Days
+- [Microsoft Virtual Training Days](https://www.microsoft.com/en-ca/sites/microsoft-training-days/?EventTitle=&index=0&RecordCount=12&OrderBy=Date%20(ascending)&ProductCategory=Azure_Dynamics+365_Microsoft+365_Power+Platform_Security&wt.mc_id=)
+- [MTodos os eventos da América Latina em um só lugar.](https://www.microsoft.com/pt-br/events-hub?s=1&page=1&pending_approval=&text=azure+virtual+training+day&country%5B%5D=22&start_date=&end_date=&sort_by=start_date+ASC)
+- [Microsoft Virtual Training Days](https://events.microsoft.com/pt-br/mvtd?ocid=AID3032310_QSG_529831&startTime=08:00&endTime=17:00?ocid=AID3032310_QSG_529831)
+- [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?wt.mc_id=examreadiness_pvuepromo_email_wwl&products=azure)
+
+
+### Para parceiros
+- [Enterprise Skills Initiative](https://esi.microsoft.com/)
 
 ## 🤝 Contribuições    
 
