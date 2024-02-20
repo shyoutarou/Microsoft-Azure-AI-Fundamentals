@@ -1,8 +1,6 @@
-
-<h1 align="center">
-    <img align="right" src="imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
-    <br>
-</h1>
+<p align="center">
+    <img  src="imagens/00_Logo_Bootccamp.jpeg" width="1000"/>  
+</p>
 
 ## Detalhes da formação
 
@@ -61,7 +59,7 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Exp
 - [Questões Microsoft Sample Test](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
 
 ## Links Importantes
-- [Become Micorsoft Certified](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI)
+- [Become Microsoft Certified](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI)
 - [Guia de estudo do Exame AI-900: Conceitos básicos de IA do Microsoft Azure](https://learn.microsoft.com/pt-br/credentials/certifications/resources/study-guides/ai-900)
 - [Microsoft Learn - Browse all courses, learning paths, and modules](https://learn.microsoft.com/en-us/training/browse/)
 
@@ -84,7 +82,7 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Exp
 
 ### Trainnings Days
 - [Microsoft Virtual Training Days](https://www.microsoft.com/en-ca/sites/microsoft-training-days/?EventTitle=&index=0&RecordCount=12&OrderBy=Date%20(ascending)&ProductCategory=Azure_Dynamics+365_Microsoft+365_Power+Platform_Security&wt.mc_id=)
-- [MTodos os eventos da América Latina em um só lugar.](https://www.microsoft.com/pt-br/events-hub?s=1&page=1&pending_approval=&text=azure+virtual+training+day&country%5B%5D=22&start_date=&end_date=&sort_by=start_date+ASC)
+- [Todos os eventos da América Latina em um só lugar.](https://www.microsoft.com/pt-br/events-hub?s=1&page=1&pending_approval=&text=azure+virtual+training+day&country%5B%5D=22&start_date=&end_date=&sort_by=start_date+ASC)
 - [Microsoft Virtual Training Days](https://events.microsoft.com/pt-br/mvtd?ocid=AID3032310_QSG_529831&startTime=08:00&endTime=17:00?ocid=AID3032310_QSG_529831)
 
 
@@ -115,13 +113,15 @@ Siga os passos abaixo para contribuir:
 
 3. Crie uma *branch* para realizar sua modificação (`git checkout -b feature/name_new_feature`)
 
-4. Adicione suas modificações e faça o *commit* (`git commit -m "Descreva sua modificação"`)
+4. Adicione suas modificações (`git add *`)
 
-5. *Push* (`git push origin feature/name_new_feature`)
+5. Faça o *commit* (`git commit -m "Descreva sua modificação"`)
 
-6. Crie um novo *Pull Request*
+6. *Push* (`git push origin feature/name_new_feature`)
 
-7. Pronto, agora só aguardar a análise 
+7. Crie um novo *Pull Request*
+
+8. Pronto, agora só aguardar a análise 
 
 ## 📜 License
 
