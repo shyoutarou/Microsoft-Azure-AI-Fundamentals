@@ -68,7 +68,7 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Exp
 ## Free Tiers
 - [Azure for Students](https://azure.microsoft.com/pt-br/free/students/)
 - [Explore free Azure services](https://azure.microsoft.com/en-us/pricing/free-services)
-- [Sobre os exames online com a Pearson VUE](https://learn.microsoft.com/pt-br/credentials/certifications/online-exams)
+
 
 ### Trilhas
 
@@ -86,10 +86,21 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Exp
 - [Microsoft Virtual Training Days](https://www.microsoft.com/en-ca/sites/microsoft-training-days/?EventTitle=&index=0&RecordCount=12&OrderBy=Date%20(ascending)&ProductCategory=Azure_Dynamics+365_Microsoft+365_Power+Platform_Security&wt.mc_id=)
 - [MTodos os eventos da América Latina em um só lugar.](https://www.microsoft.com/pt-br/events-hub?s=1&page=1&pending_approval=&text=azure+virtual+training+day&country%5B%5D=22&start_date=&end_date=&sort_by=start_date+ASC)
 - [Microsoft Virtual Training Days](https://events.microsoft.com/pt-br/mvtd?ocid=AID3032310_QSG_529831&startTime=08:00&endTime=17:00?ocid=AID3032310_QSG_529831)
+
+
+### Outros treinamentos
 - [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?wt.mc_id=examreadiness_pvuepromo_email_wwl&products=azure)
 - [MICROSOFT LEARN CLOUD SKILLS CHALLENGE - 30 Dias de Aprendizagem](https://developer.microsoft.com/pt-br/offers/30-days-to-learn-it?wt.mc_id=esi_30dtli_webpage_wwl)
 - [Microsoft Conecta+](https://www.microsoft.com/pt-br/conecta/)
 
+### Sobre a prova
+- [Sobre os exames online com a Pearson VUE](https://learn.microsoft.com/pt-br/credentials/certifications/online-exams)
+- [Pearson VUE](https://home.pearsonvue.com/Test-takers/OnVUE-online-proctoring.aspx)
+
+
+### Certificados
+- [Certiport](https://certiport.pearsonvue.com/)
+- [Credly](https://info.credly.com/)
 
 ### Para parceiros
 - [Enterprise Skills Initiative](https://esi.microsoft.com/)
