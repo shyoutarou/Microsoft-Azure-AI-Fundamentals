@@ -84,7 +84,7 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Exp
 - [Microsoft Virtual Training Days](https://www.microsoft.com/en-ca/sites/microsoft-training-days/?EventTitle=&index=0&RecordCount=12&OrderBy=Date%20(ascending)&ProductCategory=Azure_Dynamics+365_Microsoft+365_Power+Platform_Security&wt.mc_id=)
 - [Todos os eventos da América Latina em um só lugar.](https://www.microsoft.com/pt-br/events-hub?s=1&page=1&pending_approval=&text=azure+virtual+training+day&country%5B%5D=22&start_date=&end_date=&sort_by=start_date+ASC)
 - [Microsoft Virtual Training Days](https://events.microsoft.com/pt-br/mvtd?ocid=AID3032310_QSG_529831&startTime=08:00&endTime=17:00?ocid=AID3032310_QSG_529831)
-
+- [Microsoft Training Days Soundtrack](https://www.youtube.com/watch?v=VZpzXdldVFw&list=PLyflH_-_blkJ43wglhuAcpgofQRx_iGS2&index=6)
 
 ### Outros treinamentos
 - [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?wt.mc_id=examreadiness_pvuepromo_email_wwl&products=azure)
@@ -94,6 +94,7 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Exp
 ### Sobre a prova
 - [Sobre os exames online com a Pearson VUE](https://learn.microsoft.com/pt-br/credentials/certifications/online-exams)
 - [Pearson VUE](https://home.pearsonvue.com/Test-takers/OnVUE-online-proctoring.aspx)
+- [Registrar-se e agendar um exame](https://learn.microsoft.com/pt-br/credentials/certifications/register-schedule-exam)
 
 
 ### Certificados

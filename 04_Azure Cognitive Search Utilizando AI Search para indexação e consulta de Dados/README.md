@@ -122,17 +122,17 @@ Você precisará provisionar um recurso de serviços de IA do Azure que esteja n
 </p>
 
 <p align="center">
-    <img  src="../imagens/04_10.png" width="100%"/> 
+    <img  src="../imagens/04_09_1.png" width="100%"/> 
 </p>
 
 4.	Clique em Revisar e em Criar. Aguarde a conclusão da implantação e vá para o recurso implantado.
 <p align="center">
-    <img  src="../imagens/04_11.png" width="100%"/> 
+    <img  src="../imagens/04_10.png" width="100%"/> 
 </p>
 
 5.	Na conta de Armazenamento do Azure que você criou, no painel de menu esquerdo, selecione Configuração (em Configurações).
 <p align="center">
-    <img  src="../imagens/04_12.png" width="100%"/> 
+    <img  src="../imagens/04_11.png" width="100%"/> 
 </p>
 
 6.	Altere a configuração de Permitir acesso anônimo de Blob para Habilitado e selecione Salvar .
@@ -141,7 +141,7 @@ Você precisará provisionar um recurso de serviços de IA do Azure que esteja n
 
 1.	No painel do menu esquerdo, selecione Containers.
 <p align="center">
-    <img  src="../imagens/04_13.png" width="100%"/> 
+    <img  src="../imagens/04_12.png" width="100%"/> 
 </p>
 
 2.	Selecione + Contêiner. Um painel do seu lado direito é aberto.
@@ -150,19 +150,19 @@ Você precisará provisionar um recurso de serviços de IA do Azure que esteja n
 - Nível de acesso público: Container (acesso de leitura anônimo para containers e blobs)
 - Avançado: sem alterações.
 <p align="center">
-    <img  src="../imagens/04_14.png" width="100%"/> 
+    <img  src="../imagens/04_13.png" width="100%"/> 
 </p>
 
 4.	Em uma nova guia do navegador, baixe as avaliações compactadas do café em https://aka.ms/mslearn-coffee-reviews e extraia os arquivos para a pasta de avaliações .
 5.	No portal do Azure, selecione o contêiner de avaliações de café. No contêiner, selecione Carregar .
 <p align="center">
-    <img  src="../imagens/04_15.png" width="100%"/> 
+    <img  src="../imagens/04_14.png" width="100%"/> 
 </p>
 
 6.	No painel Carregar blob , selecione Selecionar um arquivo .
 7.	Na janela do Explorer, selecione todos os arquivos na pasta de avaliações, selecione Abrir e, em seguida, selecione Carregar.
 <p align="center">
-    <img  src="../imagens/04_16.png" width="100%"/> 
+    <img  src="../imagens/04_15.png" width="100%"/> 
 </p>
 
 8.	Depois que o upload for concluído, você poderá fechar o painel Upload blob . Seus documentos estão agora em seu contêiner de armazenamento de avaliações de café.
@@ -172,16 +172,16 @@ Você precisará provisionar um recurso de serviços de IA do Azure que esteja n
 Depois de armazenar os documentos, você poderá usar o Azure AI Search para extrair insights dos documentos. O portal do Azure fornece um assistente de importação de dados. Com este assistente, você pode criar automaticamente um índice e um indexador para fontes de dados suportadas. Você usará o assistente para criar um índice e importar seus documentos de pesquisa do armazenamento para o índice do Azure AI Search.
 1.	No portal do Azure, navegue até o recurso do Azure AI Search. Na página Visão geral, selecione Importar dados.
 <p align="center">
-    <img  src="../imagens/04_17.png" width="100%"/> 
+    <img  src="../imagens/04_16.png" width="100%"/> 
 </p>
 
 <p align="center">
-    <img  src="../imagens/04_18.png" width="100%"/> 
+    <img  src="../imagens/04_17.png" width="100%"/> 
 </p>
 
 2.	Na página Conectar-se aos seus dados, na lista Fonte de Dados, selecione Azure Blob Storage . 
 <p align="center">
-    <img  src="../imagens/04_19.png" width="100%"/> 
+    <img  src="../imagens/04_18.png" width="100%"/> 
 </p>
 
 3.	Conclua o armazenamento de dados detalhes com o seguindo valores :
@@ -224,7 +224,7 @@ Nota É importante selecionar Habilitar OCR para ver todas as opções de campo 
 - Imagem referências
 Nota Se aparecer um aviso solicitando uma cadeia de conexão de conta de armazenamento .
 <p align="center">
-    <img  src="../imagens/04_20.png" width="100%"/> 
+    <img  src="../imagens/04_19.png" width="100%"/> 
 </p>
 
 h.	Selecione Escolha uma conexão existente . Escolha a conta de armazenamento que você criou anteriormente.
@@ -235,7 +235,7 @@ j.	Selecione o contêiner de armazenamento de conhecimento e clique em Seleciona
 10.	Certifique-se de que a chave esteja configurada como metadata_storage_path . Deixe o nome do sugeridor em branco e o modo de pesquisa preenchido automaticamente.
 11.	Revise as configurações padrão dos campos de índice. Selecione filtrável para todos os campos que já estão selecionados por padrão.
 <p align="center">
-    <img  src="../imagens/04_21.png" width="100%"/> 
+    <img  src="../imagens/04_20.png" width="100%"/> 
 </p>
 
 12.	Selecione Próximo: Criar um indexador.
@@ -249,7 +249,7 @@ j.	Selecione o contêiner de armazenamento de conhecimento e clique em Seleciona
 17.	Na metade inferior da página Visão geral do recurso Azure AI Search, selecione a guia Indexadores. Esta guia mostra o indexador de café recém-criado. Espere um minuto e selecione &orarr; Atualize até que o Status indique sucesso.
 18.	Selecione o nome do indexador para ver mais detalhes.
 <p align="center">
-    <img  src="../imagens/04_22.png" width="100%"/> 
+    <img  src="../imagens/04_21.png" width="100%"/> 
 </p>
 
 ## Consultar o índice
@@ -258,29 +258,29 @@ j.	Selecione o contêiner de armazenamento de conhecimento e clique em Seleciona
 Use o Search Explorer para escrever e testar consultas. O explorador de pesquisa é uma ferramenta incorporada no portal do Azure que oferece uma maneira fácil de validar a qualidade do seu índice de pesquisa. Você pode usar o Search Explorer para escrever consultas e revisar resultados em JSON.
 1.	Na página Visão geral do serviço de pesquisa, selecione Explorador de pesquisa na parte superior da tela.
 <p align="center">
-    <img  src="../imagens/04_23.png" width="100%"/> 
+    <img  src="../imagens/04_22.png" width="100%"/> 
 </p>
 
 2.	Observe como o índice selecionado é o índice de café que você criou.
 <p align="center">
-    <img  src="../imagens/04_24.png" width="100%"/> 
+    <img  src="../imagens/04_23.png" width="100%"/> 
 </p>
 
 No campo Cadeia de consulta, insira search=*&$count=true e selecione Pesquisar . A consulta de pesquisa retorna todos os documentos no índice de pesquisa, incluindo uma contagem de todos os documentos no campo @odata.count . O índice de pesquisa deve retornar um documento JSON contendo os resultados da pesquisa.
 <p align="center">
-    <img  src="../imagens/04_25.png" width="100%"/> 
+    <img  src="../imagens/04_24.png" width="100%"/> 
 </p>
 
 Observação Se uma mensagem Para pesquisar no portal, permita a origem do portal nas configurações do índice CORS for exibida, selecione Permitir portal e, em seguida, selecione Pesquisar .
 3.	Agora vamos filtrar por localização. Insira search=locations:'Chicago' no campo String de consulta e selecione Pesquisar. A consulta pesquisa todos os documentos no índice e filtra revisões com localização em Chicago.
 <p align="center">
-    <img  src="../imagens/04_26.png" width="100%"/> 
+    <img  src="../imagens/04_25.png" width="100%"/> 
 </p>
 
 4.	Agora vamos filtrar por sentimento. Insira search=sentiment:'negative' no campo String de consulta e selecione Pesquisar. A consulta pesquisa todos os documentos no índice e filtra revisões com sentimento negativo.
  
 <p align="center">
-    <img  src="../imagens/04_27.png" width="100%"/> 
+    <img  src="../imagens/04_26.png" width="100%"/> 
 </p>
 
 Nota Veja como os resultados são classificados por @search.score . Esta é a pontuação atribuída pelo mecanismo de pesquisa para mostrar o quão próximos os resultados correspondem à consulta fornecida.
@@ -292,32 +292,32 @@ Vamos ver o poder do armazenamento de conhecimento em ação. Ao executar o assi
 1.	No portal do Azure, navegue de volta para a sua conta de armazenamento do Azure.
 2.	No painel do menu esquerdo, selecione Containers. Selecione o contêiner de armazenamento de conhecimento.
 <p align="center">
-    <img  src="../imagens/04_28.png" width="100%"/> 
+    <img  src="../imagens/04_27.png" width="100%"/> 
 </p>
 
 3.	Selecione qualquer um dos itens e clique no arquivo objectprojection.json .
 <p align="center">
-    <img  src="../imagens/04_29.png" width="100%"/> 
+    <img  src="../imagens/04_28.png" width="100%"/> 
 </p>
 
 4.	Selecione Editar para ver o JSON produzido para um dos documentos do seu armazenamento de dados do Azure.
 <p align="center">
-    <img  src="../imagens/04_30.png" width="100%"/> 
+    <img  src="../imagens/04_29.png" width="100%"/> 
 </p>
 
 5.	Selecione a localização atual do blob de armazenamento no canto superior esquerdo da tela para retornar à conta de armazenamento Containers .
 <p align="center">
-    <img  src="../imagens/04_31.png" width="100%"/> 
+    <img  src="../imagens/04_30.png" width="100%"/> 
 </p>
 
 6.	Em Containers , selecione o contêiner coffee-skillset-image-projection . Selecione qualquer de o Unid .
 <p align="center">
-    <img  src="../imagens/04_32.png" width="100%"/> 
+    <img  src="../imagens/04_31.png" width="100%"/> 
 </p>
 
 7.	Selecione qualquer um dos arquivos .jpg . Selecione Editar para ver a imagem armazenada no documento. Observe como todas as imagens dos documentos são armazenadas desta forma.
 <p align="center">
-    <img  src="../imagens/04_33.png" width="100%"/> 
+    <img  src="../imagens/04_32.png" width="100%"/> 
 </p>
 
 8.	Selecione a localização atual do blob de armazenamento no canto superior esquerdo da tela para retornar à conta de armazenamento Containers.
