@@ -152,11 +152,11 @@ Observação : se você não for solicitado a escolher um recurso de idioma, pod
 
 4.	Em Digite seu próprio texto, carregue um arquivo ou use um de nossos textos de exemplo, copie e cole a seguinte revisão:
 
-``` JSON
- Tired hotel with poor service
- The Royal Hotel, London, United Kingdom
- 5/6/2018
- This is an old hotel (has been around since 1950's) and the room furnishings are average - becoming a bit old now and require changing. The internet didn't work and had to come to one of their office rooms to check in for my flight home. The website says it's close to the British Museum, but it's too far to walk.
+``` bash
+Tired hotel with poor service
+The Royal Hotel, London, United Kingdom
+5/6/2018
+This is an old hotel (has been around since 1950's) and the room furnishings are average - becoming a bit old now and require changing. The internet didn't work and had to come to one of their office rooms to check in for my flight home. The website says it's close to the British Museum, but it's too far to walk.
 
 ```
 
@@ -178,18 +178,18 @@ Observe que há um sentimento geral seguido por pontuações próximas a três c
 Selecione a frase 1 novamente para fechar.
 1.	Role para cima para selecionar Limpar caixa de texto e copie e cole a seguinte revisão:
 
-``` JSON
- Good Hotel and staff
- The Royal Hotel, London, UK
- 3/2/2018
- Clean rooms, good service, great location near Buckingham Palace and Westminster Abbey, and so on. We thoroughly enjoyed our stay. The courtyard is very peaceful and we went to a restaurant which is part of the same group and is Indian ( West coast so plenty of fish) with a Michelin Star. We had the taster menu which was fabulous. The rooms were very well appointed with a kitchen, lounge, bedroom and enormous bathroom. Thoroughly recommended.
+``` bash
+Good Hotel and staff
+The Royal Hotel, London, UK
+3/2/2018
+Clean rooms, good service, great location near Buckingham Palace and Westminster Abbey, and so on. We thoroughly enjoyed our stay. The courtyard is very peaceful and we went to a restaurant which is part of the same group and is Indian ( West coast so plenty of fish) with a Michelin Star. We had the taster menu which was fabulous. The rooms were very well appointed with a kitchen, lounge, bedroom and enormous bathroom. Thoroughly recommended.
 
 ```
 
 2.	Selecione Executar. Revise o resultado e o sentimento e o nível de confiança.
 3.	Selecione Limpar caixa de texto novamente e copie e cole a seguinte revisão:
 
-``` JSON
+``` bash
 Very noisy and rooms are tiny The Lombard Hotel, San Francisco, USA 9/5/2018 Hotel is located on Lombard street which is a very busy SIX lane street directly off the Golden Gate Bridge. Traffic from early morning until late at night especially on weekends. Noise would not be so bad if rooms were better insulated but they are not. Had to put cotton balls in my ears to be able to sleep–was too tired to enjoy the city the next day. Rooms are TINY. I picked the room because it had two queen size beds–but the room barely had space to fit them. With family of four in the room it was tight. With all that said, rooms are clean and they’ve made an effort to update them. The hotel is in Marina district with lots of good places to eat, within walking distance to Presidio. May be good hotel for young stay-up-late adults on a budget
 
 ```
@@ -244,10 +244,12 @@ Obs.: A exclusão pode demorar um pouco para acontecer. Aguarde um pouco e confi
 ## Não encontrou sua resposta aqui? Tente esses repositórios...
 
 ### Repos Auxiliares
-- [giselle-ferreira](
-https://github.com/giselle-ferreira/language-studio-microsoft-azure)
-- [alexklenio](
-https://github.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP03%20-%20An%C3%A1lise%20de%20sentimentos)
+- [giselle-ferreira](https://github.com/giselle-ferreira/language-studio-microsoft-azure)
+- [alexklenio](https://github.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP03%20-%20An%C3%A1lise%20de%20sentimentos)
+- [miguelfmds](https://github.com/miguelfmds/bootcamp-microsoft-azure-ai-fundamentals/tree/main/LAB03%20-%20An%C3%A1lise%20de%20Sentimentos%20)
+- [wvdomingos](https://github.com/wvdomingos/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP03%20-%20An%C3%A1lise%20de%20sentimentos)
+- [michaelssilva](https://github.com/michaelssilva/Bootcamp-DIO-AI-900/tree/main/Desafio%203)
+- [casjunior93](https://github.com/casjunior93/Projeto-DIO---Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI)
 
 
 ## 📜 License

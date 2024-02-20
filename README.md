@@ -53,6 +53,12 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/04_Azu
 - [Explorando os Recursos de IA Generativa com Copilot e OpenAI](
 https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Explorando%20os%20Recursos%20de%20IA%20Generativa%20com%20Copilot%20e%20OpenAI)
 
+**Verificação de conhecimento:** Respostas comentadas pelo ChtGPT 3.5 de vários simulados e teste.
+- [Questões DIO](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
+- [Questões Simulado Learn](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
+- [Questões Microsoft Learn](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
+- [Questões Measure Up](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
+- [Questões Microsoft Sample Test](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
 
 ### Links Importantes
 - [Guia de estudo do Exame AI-900: Conceitos básicos de IA do Microsoft Azure](https://learn.microsoft.com/pt-br/credentials/certifications/resources/study-guides/ai-900)
@@ -61,11 +67,26 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Exp
 - [Trilha AI Fundamentals - Spring challenge](https://learn.microsoft.com/pt-br/collections/moqrtxyokw4e?WT.mc_id=cloudskillschallenge_3ea8480b-4134-4237-bd3e-3b8cc9e68ab0)
 - [Examtopics - Microsoft AI-900 Exam Actual Questions](https://www.examtopics.com/exams/microsoft/ai-900/view/)
 - [Fazer uma avaliação simulada gratuita - Precisa estar logado no Microsoft Learn](https://learn.microsoft.com/pt-br/credentials/certifications/exams/ai-900/practice/assessment?assessmentId=26&assessment-type=practice)
+- [MICROSOFT LEARN CLOUD SKILLS CHALLENGE - 30 Dias de Aprendizagem](https://developer.microsoft.com/pt-br/offers/30-days-to-learn-it?wt.mc_id=esi_30dtli_webpage_wwl)
 
 
+## 🤝 Contribuições    
 
+Siga os passos abaixo para contribuir:
 
+1. Faça o *fork* do projeto (<https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals.git>)
 
+2. Clone o seu *fork* para sua maquína (`git clone https://github.com/user_name/Microsoft-Azure-AI-Fundamentals.git`)
+
+3. Crie uma *branch* para realizar sua modificação (`git checkout -b feature/name_new_feature`)
+
+4. Adicione suas modificações e faça o *commit* (`git commit -m "Descreva sua modificação"`)
+
+5. *Push* (`git push origin feature/name_new_feature`)
+
+6. Crie um novo *Pull Request*
+
+7. Pronto, agora só aguardar a análise 
 
 ## 📜 License
 

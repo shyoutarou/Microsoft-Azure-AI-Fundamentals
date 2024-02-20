@@ -570,12 +570,14 @@ Depois de terminar, você poderá excluir o recurso Segurança de Conteúdo do P
 ## Não encontrou sua resposta aqui? Tente esses repositórios...
 
 ### Repos Auxiliares
-- [giselle-ferreira](
-https://github.com/giselle-ferreira/automl-microsoft-azure)
-- [alexklenio](
- https://github.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP01%20-%20Trabalhando%20com%20Machine%20Learning)
-- [francodof](
-https://github.com/francodof/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/Lab01-Azure-ML-Automated)
+- [giselle-ferreira](https://github.com/giselle-ferreira/automl-microsoft-azure)
+- [alexklenio](https://github.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP01%20-%20Trabalhando%20com%20Machine%20Learning)
+- [miguelfmds](https://github.com/miguelfmds/bootcamp-microsoft-azure-ai-fundamentals/tree/main/LAB01%20-%20Machine%20Learning)
+- [wvdomingos](https://github.com/wvdomingos/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP01%20-%20Trabalhando%20com%20Machine%20Learning)
+- [michaelssilva](https://github.com/michaelssilva/Bootcamp-DIO-AI-900/tree/main/Desafio%204)
+- [casjunior93](https://github.com/casjunior93/Projeto-DIO---Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML)
+- [colatto](https://github.com/colatto/AI-900-MachineLearning)
+- [francodof](https://github.com/francodof/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/Lab01-Azure-ML-Automated)
 
 
 ## 📜 License

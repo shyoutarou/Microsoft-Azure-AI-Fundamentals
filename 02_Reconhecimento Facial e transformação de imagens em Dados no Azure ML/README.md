@@ -31,9 +31,6 @@ Neste LAB, iremos praticar a criação de reconhecimento facial, identificação
 - [Analise imagens no Vision Studio](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/03-image-análise.html)
 
 
-
-
-
 ## Detectar rostos no Vision Studio
 
 
@@ -234,12 +231,6 @@ Nesta tarefa, você usa o recurso de detecção de objetos da Análise de imagem
 7.	Mova o controle deslizante Valor limite até que um valor de 70 seja exibido à direita do controle deslizante. Observe o que acontece com os objetos da lista. O controle deslizante de limite especifica que somente objetos identificados com uma pontuação de confiança ou probabilidade maior que o limite devem ser exibidos.
 
 
-
- 
-
-
-
-
 ## Excluir Grupo de Recursos 
 
 Se não pretende fazer mais exercícios, exclua todos os recursos que não precisa mais. Esse evita acumulando qualquer desnecessário custos .
@@ -286,10 +277,13 @@ Obs.: A exclusão pode demorar um pouco para acontecer. Aguarde um pouco e confi
 ## Não encontrou sua resposta aqui? Tente esses repositórios...
 
 ### Repos Auxiliares
-- [giselle-ferreira](
-https://github.com/giselle-ferreira/vision-studio-microsoft-azure)
-- [alexklenio](
- https://github.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP02%20-Vis%C3%A3o%20Computacional)
+- [giselle-ferreira](https://github.com/giselle-ferreira/vision-studio-microsoft-azure)
+- [alexklenio](https://github.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP02%20-Vis%C3%A3o%20Computacional)
+- [miguelfmds](https://github.com/miguelfmds/bootcamp-microsoft-azure-ai-fundamentals/tree/main/LAB02%20-%20Vis%C3%A3o%20Computacional)
+- [wvdomingos](https://github.com/wvdomingos/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP02%20-Vis%C3%A3o%20Computacional)
+- [michaelssilva](https://github.com/michaelssilva/Bootcamp-DIO-AI-900/tree/main/Desafio%202)
+- [casjunior93](https://github.com/casjunior93/Projeto-DIO---Reconhecimento-Facial-e-transformacao-de-imagens-em-Dados-no-Azure-ML)
+- [colatto](https://github.com/colatto/AI-900-VisionStudio)
 
 
 ## 📜 License

@@ -295,11 +295,12 @@ Obs.: A exclusão pode demorar um pouco para acontecer. Aguarde um pouco e confi
 ## Não encontrou sua resposta aqui? Tente esses repositórios...
 
 ### Repos Auxiliares
-- [giselle-ferreira](
-https://github.com/giselle-ferreira/dio-microsoft-azure-ai-fundamentals/tree/main/Labotat%C3%B3rio%205%20-%20IA%20Generativa)
-- [alexklenio](
-https://github.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP05%20-%20Explorando%20os%20Recursos%20de%20IA%20Generativa)
-
+- [giselle-ferreira](https://github.com/giselle-ferreira/dio-microsoft-azure-ai-fundamentals/tree/main/Labotat%C3%B3rio%205%20-%20IA%20Generativa)
+- [alexklenio](https://github.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP05%20-%20Explorando%20os%20Recursos%20de%20IA%20Generativa)
+- [miguelfmds](https://github.com/miguelfmds/bootcamp-microsoft-azure-ai-fundamentals/tree/main/LAB05%20-%20IA%20Generativa)
+- [wvdomingos](https://github.com/wvdomingos/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP05%20-%20Explorando%20os%20Recursos%20de%20IA%20Generativa)
+- [michaelssilva](https://github.com/michaelssilva/Bootcamp-DIO-AI-900/tree/main/Desafio%205)
+- [casjunior93](https://github.com/casjunior93/Projeto-DIO---Explorando-os-Recursos-de-IA-Generativa-com-Copilot-e-OpenAI)
 
 ## 📜 License
 

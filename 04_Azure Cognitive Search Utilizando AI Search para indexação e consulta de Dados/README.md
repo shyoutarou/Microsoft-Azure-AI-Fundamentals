@@ -373,11 +373,12 @@ Obs.: A exclusão pode demorar um pouco para acontecer. Aguarde um pouco e confi
 ## Não encontrou sua resposta aqui? Tente esses repositórios...
 
 ### Repos Auxiliares
-- [giselle-ferreira](
-https://github.com/giselle-ferreira/ai-search-microsoft-azure)
-- [alexklenio](
-https://github.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP04%20-%20Azure%20Cognitive%20Search)
-
+- [giselle-ferreira](https://github.com/giselle-ferreira/ai-search-microsoft-azure)
+- [alexklenio](https://github.com/alexklenio/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP04%20-%20Azure%20Cognitive%20Search)
+- [miguelfmds](https://github.com/miguelfmds/bootcamp-microsoft-azure-ai-fundamentals/tree/main/LAB04%20-%20Cognitive%20Search)
+- [wvdomingos](https://github.com/wvdomingos/DIO-Microsoft-Azure-AI-Fundamentals/tree/main/DP04%20-%20Azure%20Cognitive%20Search)
+- [michaelssilva](https://github.com/michaelssilva/Bootcamp-DIO-AI-900/tree/main/Desafio%204)
+- [casjunior93](https://github.com/casjunior93/Projeto-DIO---Utilizando-AI-Search-para-indexa--o-e-consulta-de-Dados)
 
 ## 📜 License
 
