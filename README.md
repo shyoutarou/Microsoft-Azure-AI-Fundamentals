@@ -70,9 +70,11 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Exp
 
 ### Trilhas
 
-- [Trilha Microsoft Azure AI Fundamentals](https://learn.microsoft.com/pt-br/training/courses/ai-900t00)
-- [Trilha Microsoft Build: Desafio de IA do Azure](https://learn.microsoft.com/pt-br/collections/e6kjawo10x63?WT.mc_id=cloudskillschallenge_12f32cf8-2cd8-42e1-97dd-001b4a042766)
-- [Trilha AI Fundamentals - Spring challenge](https://learn.microsoft.com/pt-br/collections/moqrtxyokw4e?WT.mc_id=cloudskillschallenge_3ea8480b-4134-4237-bd3e-3b8cc9e68ab0)
+- [Microsoft Azure AI Fundamentals](https://learn.microsoft.com/pt-br/training/courses/ai-900t00)
+- [Microsoft Build: Desafio de IA do Azure](https://learn.microsoft.com/pt-br/collections/e6kjawo10x63?WT.mc_id=cloudskillschallenge_12f32cf8-2cd8-42e1-97dd-001b4a042766)
+- [AI Fundamentals - Spring challenge](https://learn.microsoft.com/pt-br/collections/moqrtxyokw4e?WT.mc_id=cloudskillschallenge_3ea8480b-4134-4237-bd3e-3b8cc9e68ab0)
+- [Transformar seus negócios com a IA da Microsoft](https://learn.microsoft.com/pt-br/training/paths/transform-your-business-with-microsoft-ai/?ocid=eml_pg417215_gdc_comm_dt)
+
 
 ### Perguntas
 
@@ -90,6 +92,10 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Exp
 - [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?wt.mc_id=examreadiness_pvuepromo_email_wwl&products=azure)
 - [Microsoft Learn Cloud Skills Challenge - 30 Dias de Aprendizagem](https://developer.microsoft.com/pt-br/offers/30-days-to-learn-it?wt.mc_id=esi_30dtli_webpage_wwl)
 - [Microsoft Conecta+](https://www.microsoft.com/pt-br/conecta/)
+
+### Youtube treinamentos
+- [Azure AI Fundamentals Certification (AI-900) - Full Course to PASS the Exam](https://www.youtube.com/watch?v=OwZHNH8EfSU)
+- [SprintAI900](https://www.youtube.com/playlist?list=PLmsFUfdnGr3yOzzC9SkekDkjonqYoZRTw)
 
 ### Sobre a prova
 - [Sobre os exames online com a Pearson VUE](https://learn.microsoft.com/pt-br/credentials/certifications/online-exams)
