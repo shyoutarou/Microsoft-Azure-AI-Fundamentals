@@ -61,12 +61,17 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Exp
 ## Links Importantes
 - [Become Microsoft Certified](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI)
 - [Guia de estudo do Exame AI-900: Conceitos básicos de IA do Microsoft Azure](https://learn.microsoft.com/pt-br/credentials/certifications/resources/study-guides/ai-900)
-- [Microsoft Learn - Browse all courses, learning paths, and modules](https://learn.microsoft.com/en-us/training/browse/)
 
-## Free Tiers
+### Free Tiers
 - [Azure for Students](https://azure.microsoft.com/pt-br/free/students/)
 - [Explore free Azure services](https://azure.microsoft.com/en-us/pricing/free-services)
 
+### Documentação IA Azure
+- [Microsoft Learn - Browse all courses, learning paths, and modules](https://learn.microsoft.com/en-us/training/browse/)
+- [Documentação dos serviços de IA do Azure](https://learn.microsoft.com/pt-br/azure/ai-services/)
+- [Azure AI Fundamentals Exercises](https://microsoftlearning.github.io/mslearn-ai900/)
+- [Azure AI Fundamentals Exercises](https://microsoftlearning.github.io/mslearn-ai-fundamentals/)
+- [Serviços de IA do Azure e o ecossistema de IA](https://learn.microsoft.com/pt-br/azure/ai-services/ai-services-and-ecosystem)
 
 ### Trilhas
 
