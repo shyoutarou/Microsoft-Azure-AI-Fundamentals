@@ -445,7 +445,7 @@ O painel Testar pegou os dados de entrada e usou o modelo treinado para retornar
 
 ## Limpar Recursos 
 
-- [Evite cobranças com a conta gratuita do Azure](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
+- [Evite cobranças com a conta gratuita do Azure](https://learn.microsoft.com/pt-br/azure/cost-management-billing/manage/avoid-charges-free-account)
 
 O serviço web que você criou está hospedado em uma instância de contêiner do Azure . Se não pretender experimentá-lo ainda mais, deverá eliminar o ponto final para evitar acumular utilização desnecessária do Azure.
 1.	No estúdio Azure Machine Learning , na guia Endpoints , selecione o ponto de extremidade de previsão de aluguel . Em seguida, selecione Excluir e confirme que deseja excluir o endpoint.

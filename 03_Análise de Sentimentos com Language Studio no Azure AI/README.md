@@ -198,7 +198,7 @@ Very noisy and rooms are tiny The Lombard Hotel, San Francisco, USA 9/5/2018 Hot
 
 ## Excluir Grupo de Recursos 
 
-- [Evite cobranças com a conta gratuita do Azure](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
+- [Evite cobranças com a conta gratuita do Azure](https://learn.microsoft.com/pt-br/azure/cost-management-billing/manage/avoid-charges-free-account)
 
 Se não pretende fazer mais exercícios, exclua todos os recursos que não precisa mais. Esse evita acumulando qualquer desnecessário custos .
 
