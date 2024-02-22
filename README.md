@@ -40,16 +40,12 @@ Com conteúdo completamente inédito, você vai se aprofundar nos principais con
 </div>
 
 **Desafio de Projeto:** Construa o seu portfólio construindo projetos práticos com o conhecimento adquirido ao longo das aulas.
-- [Trabalhando com Machine Learning na Prática no Azure ML](
-https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/01_Trabalhando%20com%20Machine%20Learning%20na%20Pr%C3%A1tica%20no%20Azure%20ML)
-- [Reconhecimento Facial e transformação de imagens em Dados no Azure ML](
-https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/02_Reconhecimento%20Facial%20e%20transforma%C3%A7%C3%A3o%20de%20imagens%20em%20Dados%20no%20Azure%20ML)
-- [Análise de Sentimentos com Language Studio no Azure AI](
-https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/03_An%C3%A1lise%20de%20Sentimentos%20com%20Language%20Studio%20no%20Azure%20AI)
-- [Azure Cognitive Search Utilizando AI Search para indexação e consulta de Dados](
-https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/04_Azure%20Cognitive%20Search%20Utilizando%20AI%20Search%20para%20indexa%C3%A7%C3%A3o%20e%20consulta%20de%20Dados)
-- [Explorando os Recursos de IA Generativa com Copilot e OpenAI](
-https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Explorando%20os%20Recursos%20de%20IA%20Generativa%20com%20Copilot%20e%20OpenAI)
+- [Trabalhando com Machine Learning na Prática no Azure ML](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/01_Trabalhando%20com%20Machine%20Learning%20na%20Pr%C3%A1tica%20no%20Azure%20ML)
+- [Reconhecimento Facial e transformação de imagens em Dados no Azure ML](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/02_Reconhecimento%20Facial%20e%20transforma%C3%A7%C3%A3o%20de%20imagens%20em%20Dados%20no%20Azure%20ML)
+- [Análise de Sentimentos com Language Studio no Azure AI](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/03_An%C3%A1lise%20de%20Sentimentos%20com%20Language%20Studio%20no%20Azure%20AI)
+- [Azure Cognitive Search Utilizando AI Search para indexação e consulta de Dados](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/04_Azure%20Cognitive%20Search%20Utilizando%20AI%20Search%20para%20indexa%C3%A7%C3%A3o%20e%20consulta%20de%20Dados)
+- [Explorando os Recursos de IA Generativa com Copilot e OpenAI](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Explorando%20os%20Recursos%20de%20IA%20Generativa%20com%20Copilot%20e%20OpenAI)
+- [Como visualizar Markdown no código do Visual Studio](https://itsfoss-com.translate.goog/vs-code-markdown-preview/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp)
 
 **Verificação de conhecimento:** Respostas comentadas pelo ChtGPT 3.5 de vários simulados e teste.
 - [Questões DIO](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
@@ -60,6 +56,7 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Exp
 
 ## Links Importantes
 - [Become Microsoft Certified](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI)
+- [Exame AI-900: Microsoft Azure AI Fundamentals](https://learn.microsoft.com/pt-br/credentials/certifications/exams/ai-900/)
 - [Guia de estudo do Exame AI-900: Conceitos básicos de IA do Microsoft Azure](https://learn.microsoft.com/pt-br/credentials/certifications/resources/study-guides/ai-900)
 
 ### Free Tiers
@@ -72,6 +69,8 @@ https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Exp
 - [Azure AI Fundamentals Exercises](https://microsoftlearning.github.io/mslearn-ai900/)
 - [Azure AI Fundamentals Exercises](https://microsoftlearning.github.io/mslearn-ai-fundamentals/)
 - [Serviços de IA do Azure e o ecossistema de IA](https://learn.microsoft.com/pt-br/azure/ai-services/ai-services-and-ecosystem)
+- [Hub de aprendizagem de IA](https://learn.microsoft.com/pt-br/ai/?wt.mc_id=aihub_microsoftsource_content_wwl%2Cmsftsource_issue56L1_email_gdc%3Focid%3Deml_pg427287_gdc_comm_mw)
+
 
 ### Trilhas
 

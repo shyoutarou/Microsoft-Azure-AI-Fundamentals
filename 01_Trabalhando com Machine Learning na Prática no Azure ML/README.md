@@ -445,6 +445,8 @@ O painel Testar pegou os dados de entrada e usou o modelo treinado para retornar
 
 ## Limpar Recursos 
 
+- [Evite cobranças com a conta gratuita do Azure](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
+
 O serviço web que você criou está hospedado em uma instância de contêiner do Azure . Se não pretender experimentá-lo ainda mais, deverá eliminar o ponto final para evitar acumular utilização desnecessária do Azure.
 1.	No estúdio Azure Machine Learning , na guia Endpoints , selecione o ponto de extremidade de previsão de aluguel . Em seguida, selecione Excluir e confirme que deseja excluir o endpoint.
 2.	Excluir sua computação garante que sua assinatura não será cobrada por recursos de computação. No entanto, será cobrada uma pequena quantia pelo armazenamento de dados, desde que o espaço de trabalho do Azure Machine Learning exista na sua assinatura. Se tiver terminado de explorar o Azure Machine Learning, poderá eliminar o espaço de trabalho Azure Machine Learning e os recursos associados.

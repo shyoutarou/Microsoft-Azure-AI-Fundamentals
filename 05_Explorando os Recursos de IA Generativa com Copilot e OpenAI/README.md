@@ -250,6 +250,8 @@ Dica : para obter mais detalhes sobre as categorias e os níveis de gravidade us
 
 ## Excluir Grupo de Recursos 
 
+- [Evite cobranças com a conta gratuita do Azure](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
+
 Se não pretende fazer mais exercícios, exclua todos os recursos que não precisa mais. Esse evita acumulando qualquer desnecessário custos .
 
 1. Acesse a página do portal e clique para abrir o menu lateral esquerdo:
