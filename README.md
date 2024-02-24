@@ -72,7 +72,6 @@ Com conteúdo completamente inédito, você vai se aprofundar nos principais con
 ### Documentação IA Azure
 - [Microsoft Learn - Browse all courses, learning paths, and modules](https://learn.microsoft.com/en-us/training/browse/)
 - [Documentação dos serviços de IA do Azure](https://learn.microsoft.com/pt-br/azure/ai-services/)
-- [Azure AI Fundamentals Exercises](https://microsoftlearning.github.io/mslearn-ai900/)
 - [Azure AI Fundamentals Exercises](https://microsoftlearning.github.io/mslearn-ai-fundamentals/)
 - [Serviços de IA do Azure e o ecossistema de IA](https://learn.microsoft.com/pt-br/azure/ai-services/ai-services-and-ecosystem)
 - [Hub de aprendizagem de IA](https://learn.microsoft.com/pt-br/ai/?wt.mc_id=aihub_microsoftsource_content_wwl%2Cmsftsource_issue56L1_email_gdc%3Focid%3Deml_pg427287_gdc_comm_mw)
