@@ -56,12 +56,18 @@ Com conteúdo completamente inédito, você vai se aprofundar nos principais con
 
 ## Links Importantes
 - [Become Microsoft Certified](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI)
+- [Microsoft Azure training and certifications](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4J5ea)
 - [Exame AI-900: Microsoft Azure AI Fundamentals](https://learn.microsoft.com/pt-br/credentials/certifications/exams/ai-900/)
 - [Guia de estudo do Exame AI-900: Conceitos básicos de IA do Microsoft Azure](https://learn.microsoft.com/pt-br/credentials/certifications/resources/study-guides/ai-900)
+- [AI-900 Exam Guide: Microsoft Azure AI Fundamentals](https://mslearn.cloudguides.com/en-us/guides/AI-900%20Exam%20Guide%20-%20Azure%20AI%20Fundamentals)
 
 ### Free Tiers
 - [Azure for Students](https://azure.microsoft.com/pt-br/free/students/)
 - [Explore free Azure services](https://azure.microsoft.com/en-us/pricing/free-services)
+
+### Azure
+- [Common Login](https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=4765445b-32c6-49b0-83e6-1d93765276ca&redirect_uri=https%3A%2F%2Fwww.office.com%2Flandingv2&response_type=code%20id_token&scope=openid%20profile%20https%3A%2F%2Fwww.office.com%2Fv2%2FOfficeHome.All&response_mode=form_post&nonce=638443768090799032.NzE0NzA1YjktMjZiMi00MzIyLThhMDctZDcwNjU4M2JhNzE4MmY4ZmYxNWQtNmIzMS00OWFhLThhNDctNDQ0NmQxMjBkNDg3&ui_locales=pt-BR&mkt=pt-BR&client-request-id=df5a7596-f401-4aad-bad8-136b0f42bb53&state=uABs-G3vewRaO6egIHDPhOoPFE5EeKVi75OQjxfG3iyvwuiJstvu692-tsx9isxzyk-iCHZ-1qQ7VjvrX0EWFCgiWKhrSX3cDsln250w7DBS3T9HuE63IhFRf1TjG8UZBpz6kL7kKQhf-2ttnmjT7A9bAGvuJkGXczegYwXssFk7Al4kaRkP1hbJCmY-07DG7Ybi0fW--1FduU80p523GKFGiRO509dpbUDyfPlyu8ywDmXVCWRsBHYCZkfHyjSfM32gWtEfWlt9iy3XllqDRA&x-client-SKU=ID_NET6_0&x-client-ver=7.2.0.0)
+- [Organizations Login](https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Fportal.azure.com%2Fsignin%2Findex%2F&response_type=code%20id_token&scope=https%3A%2F%2Fmanagement.core.windows.net%2F%2Fuser_impersonation%20openid%20email%20profile&state=OpenIdConnect.AuthenticationProperties%3DhhFYAd7_YpHrOGu6MLPd2diR1G7MMYzNozQDLc4SrwJ_WpkKVn5NRmPtpbJbb70w_0i3HmEkiIDWaCkNnUzyoHxaSvhD85bhMzJl4Wo_NHdE_6Okyzdefz45F-v5bAiEd49C1Jsa7wTfbMOPAcEFMOltRtkYbtQGSKvx3-DHkdWb6sMHyzNYDfJgrULy2bvPH0GRwx4olURr1ZCFRcUgb9FHv6TFJl3tqR34Pao-qZUGuKAFsYSkYViagfqe1Yu2UIcWZOa6PdN90AgvottSHzYXutXFI_HKbsd8ZjCHFWtZx51DE1rtdISa6GGM0kdprfx8OeGDuI2ltOmlS_WIrHZxMvew-LRJCU1JhvctvOmHHVIAM50lRjfkLjAcwm_HB1hpiLF3-iu_9FvXqKDXdtFINE3toUb_NSW_drN5UwYayGR9rkFeUhtCFz6WoEppcb0Vp9a25DOUAWTlBTfbhJqDxL6btv-AcC17fcEu2fXMlXiDCxyRdsljtphNMFLt&response_mode=form_post&nonce=638443769580879577.MGM3ZjhlMTgtNzU4ZS00NTcwLWE0ZjItZWM5MjIzOTg4ZWRiOWU1Zjc2MjgtOWIwMi00NjBiLTllYTktNTJmYjhjNTk2Yjk5&client_id=c44b4083-3bb0-49c1-b47d-974e53cbdf3c&site_id=501430&client-request-id=90962eac-e932-4ccb-a047-2756fe3e1276&x-client-SKU=ID_NET472&x-client-ver=6.34.0.0)
 
 ### Documentação IA Azure
 - [Microsoft Learn - Browse all courses, learning paths, and modules](https://learn.microsoft.com/en-us/training/browse/)
@@ -82,9 +88,9 @@ Com conteúdo completamente inédito, você vai se aprofundar nos principais con
 
 ### Perguntas
 
-- [Examtopics - Microsoft AI-900 Exam Actual Questions](https://www.examtopics.com/exams/microsoft/ai-900/view/)
 - [Fazer uma avaliação simulada gratuita - Precisa estar logado no Microsoft Learn](https://learn.microsoft.com/pt-br/credentials/certifications/exams/ai-900/practice/assessment?assessmentId=26&assessment-type=practice)
-
+- [Examtopics - Microsoft AI-900 Exam Actual Questions](https://www.examtopics.com/exams/microsoft/ai-900/view/)
+- [Udemy](https://www.udemy.com/courses/search/?src=ukw&q=ai-900)
 
 ### Trainnings Days
 - [Microsoft Virtual Training Days](https://www.microsoft.com/en-ca/sites/microsoft-training-days/?EventTitle=&index=0&RecordCount=12&OrderBy=Date%20(ascending)&ProductCategory=Azure_Dynamics+365_Microsoft+365_Power+Platform_Security&wt.mc_id=)
@@ -95,10 +101,12 @@ Com conteúdo completamente inédito, você vai se aprofundar nos principais con
 ### Outros treinamentos
 - [Exam Readiness Zone](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?wt.mc_id=examreadiness_pvuepromo_email_wwl&products=azure)
 - [Microsoft Learn Cloud Skills Challenge - 30 Dias de Aprendizagem](https://developer.microsoft.com/pt-br/offers/30-days-to-learn-it?wt.mc_id=esi_30dtli_webpage_wwl)
+- [Microsoft Azure Connected Learning Experience (CLX)](https://clx.cloudevents.ai/events/39366311-ad15-4b90-9364-0252213842fa)
 - [Microsoft Conecta+](https://www.microsoft.com/pt-br/conecta/)
 
 ### Youtube treinamentos
-- [Azure AI Fundamentals Certification (AI-900) - Full Course to PASS the Exam](https://www.youtube.com/watch?v=OwZHNH8EfSU)
+- [freeCodeCamp.org - Azure AI Fundamentals Certification 2024 (AI-900) - Full Course to PASS the Exam](https://www.youtube.com/watch?v=hHjmr_YOqnU)
+- [freeCodeCamp.org - Azure AI Fundamentals Certification (AI-900) - Full Course to PASS the Exam](https://www.youtube.com/watch?v=OwZHNH8EfSU)
 - [SprintAI900](https://www.youtube.com/playlist?list=PLmsFUfdnGr3yOzzC9SkekDkjonqYoZRTw)
 
 ### Sobre a prova
