@@ -47,7 +47,7 @@ Com conteúdo completamente inédito, você vai se aprofundar nos principais con
 - [Explorando os Recursos de IA Generativa com Copilot e OpenAI](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Explorando%20os%20Recursos%20de%20IA%20Generativa%20com%20Copilot%20e%20OpenAI)
 - [Como visualizar Markdown no código do Visual Studio](https://itsfoss-com.translate.goog/vs-code-markdown-preview/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp)
 
-**Verificação de conhecimento:** Respostas comentadas pelo ChtGPT 3.5 de vários simulados e teste.
+**Verificação de conhecimento:** Respostas comentadas pelo ChatGPT 3.5 de vários simulados e teste.
 - [Questões DIO](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
 - [Questões Simulado Learn](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
 - [Questões Microsoft Learn](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
