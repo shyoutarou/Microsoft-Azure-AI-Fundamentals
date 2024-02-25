@@ -76,6 +76,9 @@ Com conteúdo completamente inédito, você vai se aprofundar nos principais con
 - [Serviços de IA do Azure e o ecossistema de IA](https://learn.microsoft.com/pt-br/azure/ai-services/ai-services-and-ecosystem)
 - [Hub de aprendizagem de IA](https://learn.microsoft.com/pt-br/ai/?wt.mc_id=aihub_microsoftsource_content_wwl%2Cmsftsource_issue56L1_email_gdc%3Focid%3Deml_pg427287_gdc_comm_mw)
 
+### CheatSheets
+- [AI- 900 WhizCard](https://www.whizlabs.com/blog/wp-content/uploads/2020/12/AI-900-whizcards.pdf)
+- [AI-900 StudyGuide](https://drive.google.com/file/d/1psvrQvOSbk_1LnsDQ3LpcUwTV180GUeE/view)
 
 ### Trilhas
 
@@ -89,6 +92,8 @@ Com conteúdo completamente inédito, você vai se aprofundar nos principais con
 
 - [Fazer uma avaliação simulada gratuita - Precisa estar logado no Microsoft Learn](https://learn.microsoft.com/pt-br/credentials/certifications/exams/ai-900/practice/assessment?assessmentId=26&assessment-type=practice)
 - [Examtopics - Microsoft AI-900 Exam Actual Questions](https://www.examtopics.com/exams/microsoft/ai-900/view/)
+- [IT Exams - Microsoft Azure AI Fundamentals v1.0 (AI-900)](https://www.itexams.com/exam/AI-900)
+- [Testpreptraining - Microsoft Azure AI Fundamentals (AI-900) Free Practice Test](https://www.testpreptraining.com/microsoft-azure-ai-fundamentals-ai-900-free-practice-test)
 - [Udemy](https://www.udemy.com/courses/search/?src=ukw&q=ai-900)
 
 ### Trainnings Days
