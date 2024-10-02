@@ -28,31 +28,34 @@ Com conteúdo completamente inédito, você vai se aprofundar nos principais con
         </tr>
         <tr>
             <td>Jornada do Herói</td>
-            <td><a href="https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/DesafiosCodigo/A%20base%20de%20toda%20IA%20Aprendendo%20L%C3%B3gica%20com%20Desafios%20de%20C%C3%B3digo/Jornada%20do%20Her%C3%B3i">Código</a></td>
+            <td><a href="DesafiosCodigo/A base de toda IA Aprendendo Lógica com Desafios de Código/Jornada do Herói/">Código</a></td>
             <td align="center">✔️</td>
         </tr>
         <tr>
             <td>Pontos de Experiência</td>
-            <td><a href="https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/DesafiosCodigo/A%20base%20de%20toda%20IA%20Aprendendo%20L%C3%B3gica%20com%20Desafios%20de%20C%C3%B3digo/Pontos%20de%20Experi%C3%AAncia">Código</a></td>
+            <td><a href="DesafiosCodigo/A base de toda IA Aprendendo Lógica com Desafios de Código/Pontos de Experiência/">Código</a></td>
             <td align="center">✔️</td>
         </tr>
     </table>     
 </div>
 
 **Desafio de Projeto:** Construa o seu portfólio construindo projetos práticos com o conhecimento adquirido ao longo das aulas.
-- [Trabalhando com Machine Learning na Prática no Azure ML](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/01_Trabalhando%20com%20Machine%20Learning%20na%20Pr%C3%A1tica%20no%20Azure%20ML)
-- [Reconhecimento Facial e transformação de imagens em Dados no Azure ML](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/02_Reconhecimento%20Facial%20e%20transforma%C3%A7%C3%A3o%20de%20imagens%20em%20Dados%20no%20Azure%20ML)
-- [Análise de Sentimentos com Language Studio no Azure AI](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/03_An%C3%A1lise%20de%20Sentimentos%20com%20Language%20Studio%20no%20Azure%20AI)
-- [Azure Cognitive Search Utilizando AI Search para indexação e consulta de Dados](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/04_Azure%20Cognitive%20Search%20Utilizando%20AI%20Search%20para%20indexa%C3%A7%C3%A3o%20e%20consulta%20de%20Dados)
-- [Explorando os Recursos de IA Generativa com Copilot e OpenAI](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/05_Explorando%20os%20Recursos%20de%20IA%20Generativa%20com%20Copilot%20e%20OpenAI)
+- [Trabalhando com Machine Learning na Prática no Azure ML](01_Trabalhando%20com%20Machine%20Learning%20na%20Prática%20no%20Azure%20ML/)
+- [Reconhecimento Facial e transformação de imagens em Dados no Azure ML](02_Reconhecimento%20Facial%20e%20transformação%20de%20imagens%20em%20Dados%20no%20Azure%20ML/)
+- [Análise de Sentimentos com Language Studio no Azure AI](03_Análise%20de%20Sentimentos%20com%20Language%20Studio%20no%20Azure%20AI/)
+- [Azure Cognitive Search Utilizando AI Search para indexação e consulta de Dados](04_Azure%20Cognitive%20Search%20Utilizando%20AI%20Search%20para%20indexação%20e%20consulta%20de%20Dados/)
+- [Explorando os Recursos de IA Generativa com Copilot e OpenAI](05_Explorando%20os%20Recursos%20de%20IA%20Generativa%20com%20Copilot%20e%20OpenAI/)
 - [Como visualizar Markdown no código do Visual Studio](https://itsfoss-com.translate.goog/vs-code-markdown-preview/?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp)
 
+**Guia de Estudos:** Um guia desenvolvido com ajuda da Inteligência Artificial Generativa Claude 3.5 Sonnet.
+- [Guia de Estudos Claude 3.5 Sonnet](Guia%20made%20by%20Claude%203.5%20Sonnet/)
+
 **Verificação de conhecimento:** Respostas comentadas pelo ChatGPT 3.5 de vários simulados e teste.
-- [Questões DIO](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
-- [Questões Simulado Learn](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
-- [Questões Microsoft Learn](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
-- [Questões Measure Up](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
-- [Questões Microsoft Sample Test](https://github.com/shyoutarou/Microsoft-Azure-AI-Fundamentals/tree/master/Questoes)
+- [Questões DIO](Questoes/)
+- [Questões Simulado Learn](Questoes/)
+- [Questões Microsoft Learn](Questoes/)
+- [Questões Measure Up](Questoes/)
+- [Questões Microsoft Sample Test](Questoes/)
 
 ## Links Importantes
 - [Become Microsoft Certified](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI)
@@ -81,16 +84,14 @@ Com conteúdo completamente inédito, você vai se aprofundar nos principais con
 - [AI-900 StudyGuide](https://drive.google.com/file/d/1psvrQvOSbk_1LnsDQ3LpcUwTV180GUeE/view)
 
 ### Trilhas
-
 - [Microsoft Azure AI Fundamentals](https://learn.microsoft.com/pt-br/training/courses/ai-900t00)
 - [Microsoft Build: Desafio de IA do Azure](https://learn.microsoft.com/pt-br/collections/e6kjawo10x63?WT.mc_id=cloudskillschallenge_12f32cf8-2cd8-42e1-97dd-001b4a042766)
 - [AI Fundamentals - Spring challenge](https://learn.microsoft.com/pt-br/collections/moqrtxyokw4e?WT.mc_id=cloudskillschallenge_3ea8480b-4134-4237-bd3e-3b8cc9e68ab0)
 - [Transformar seus negócios com a IA da Microsoft](https://learn.microsoft.com/pt-br/training/paths/transform-your-business-with-microsoft-ai/?ocid=eml_pg417215_gdc_comm_dt)
 
-
 ### Perguntas
 
-- [Fazer uma avaliação simulada gratuita - Precisa estar logado no Microsoft Learn](https://learn.microsoft.com/pt-br/credentials/certifications/exams/ai-900/practice/assessment?assessmentId=26&assessment-type=practice)
+- [Fazer uma avaliação simulação gratuita - Precisa estar logado no Microsoft Learn](https://learn.microsoft.com/pt-br/credentials/certifications/exams/ai-900/practice/assessment?assessmentId=26&assessment-type=practice)
 - [Examtopics - Microsoft AI-900 Exam Actual Questions](https://www.examtopics.com/exams/microsoft/ai-900/view/)
 - [IT Exams - Microsoft Azure AI Fundamentals v1.0 (AI-900)](https://www.itexams.com/exam/AI-900)
 - [Testpreptraining - Microsoft Azure AI Fundamentals (AI-900) Free Practice Test](https://www.testpreptraining.com/microsoft-azure-ai-fundamentals-ai-900-free-practice-test)
@@ -112,12 +113,12 @@ Com conteúdo completamente inédito, você vai se aprofundar nos principais con
 - [freeCodeCamp.org - Azure AI Fundamentals Certification 2024 (AI-900) - Full Course to PASS the Exam](https://www.youtube.com/watch?v=hHjmr_YOqnU)
 - [freeCodeCamp.org - Azure AI Fundamentals Certification (AI-900) - Full Course to PASS the Exam](https://www.youtube.com/watch?v=OwZHNH8EfSU)
 - [SprintAI900](https://www.youtube.com/playlist?list=PLmsFUfdnGr3yOzzC9SkekDkjonqYoZRTw)
+- [Microsoftvlogs - AI-900: Microsoft Azure AI Fundamentals | Free Complete Training](https://www.youtube.com/watch?v=TPvI3wq5Fuc)
 
 ### Sobre a prova
 - [Sobre os exames online com a Pearson VUE](https://learn.microsoft.com/pt-br/credentials/certifications/online-exams)
 - [Pearson VUE](https://home.pearsonvue.com/Test-takers/OnVUE-online-proctoring.aspx)
 - [Registrar-se e agendar um exame](https://learn.microsoft.com/pt-br/credentials/certifications/register-schedule-exam)
-
 
 ### Certificados
 - [Certiport](https://certiport.pearsonvue.com/)
@@ -153,6 +154,3 @@ O projeto publicado em 2024 sobre a licença [MIT](./LICENSE) ❤️
 Made with ❤️ by Shyoutarou
 
 Gostou? Deixe uma estrelinha para ajudar o projeto ⭐
-
-
-
